@@ -10,7 +10,6 @@
 
 
 /*---------------------------mobile smartphone------------------------------------*/
-@import "generales";
 @media(max-width:1023px){
 
 
@@ -1138,9 +1137,9 @@ align-items: center;
            flex-direction: column;
            color:antiquewhite;
            font-family:'Roboto', sans-serif;
-           font-size:21px ;
-           font-weight:bolder;
-           width: 60%;
+           font-size:15px ;
+           font-weight:lighter;
+           width: 80%;
            justify-items:flex-end;
            align-items: center; 
            height: 100vh;  
