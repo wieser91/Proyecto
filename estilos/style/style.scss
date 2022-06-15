@@ -10,7 +10,6 @@
 
 
 /*---------------------------mobile smartphone------------------------------------*/
-@import "generales";
 @media(max-width:1023px){
 
 
@@ -53,7 +52,7 @@ footer{
    
            .tituloconteiner{
                display:flex;      
-               font-size: 40px;
+               font-size: 30px;
                flex-direction: column;
                align-items:flex-end;
    
@@ -69,7 +68,7 @@ footer{
        flex-direction:column;
        font-family:'Roboto', sans-serif;
        font-weight: bolder;
-       padding:0px;
+       padding:50px;
        justify-content: center;
        color:antiquewhite;
        width: 900px;
@@ -115,15 +114,15 @@ footer{
                                 flex-wrap: wrap;
                                 color:antiquewhite;
                                 font-family:'Roboto', sans-serif;
-                                font-size:21px ;
-                                font-weight:bolder;
+                                font-size:15px ;
+                                font-weight:lighter;
                                 width: 80%;
                                 height: 100vh;
                                 justify-content:space-evenly;
                                 align-items:flex-start;
                                 display:grid;
                                 grid-template-columns: 0.5fr;
-                                grid-template-rows: 0.5fr 0.5fr 0.5fr;
+                                grid-template-rows: 0.25fr 0.25fr 0.15fr;
                                 grid-template-areas: "lorem1"
                                                       "lorem2"
                                                      "marco-index"
@@ -246,7 +245,7 @@ footer{
     justify-content: center;
     align-items: center;
     color:white;
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
     margin:20px 10px;
     width:400px;
@@ -1102,7 +1101,7 @@ align-items: center;
    
            .tituloconteiner{
                display:flex;      
-               font-size: 40px;
+               font-size: 30px;
                flex-direction: column;
                align-items:center;
                margin-top:20px;
@@ -1138,8 +1137,8 @@ align-items: center;
            flex-direction: column;
            color:antiquewhite;
            font-family:'Roboto', sans-serif;
-           font-size:21px ;
-           font-weight:bolder;
+           font-size:20px ;
+           font-weight:lighter;
            width: 60%;
            justify-items:flex-end;
            align-items: center; 
@@ -1267,7 +1266,7 @@ align-items: center;
           justify-content: center;
           align-items: center;
           color:white;
-          font-size: 20px;
+          font-size: 15px;
           text-decoration: none;
           margin:20px 10px;
           width:400px;
@@ -1586,25 +1585,25 @@ background-color: bisque;
 #parrafo1{
 background-blend-mode :soft-light;
 grid-area:parrafo1;
-font-size: 20px;
+font-size: 15px;
 font-weight: bolder;
 }
 
 #parrafo2{
  grid-area:parrafo2;
-  font-size:20px ;
+  font-size:15px ;
 font-weight: bolder;
 
 }
 #parrafo3{
  grid-area:parrafo3;
- font-size: 20px;
+ font-size: 15px;
  font-weight: bolder;
 }
 
 #parrafo4{
  grid-area:parrafo4;
- font-size: 20px;
+ font-size: 15px;
  font-weight: bolder;
 }
 
@@ -1636,7 +1635,7 @@ font-weight: bolder;
        width:55%;
        flex-direction: column;
        align-items: flex-start;
-       font-size:20px;
+       font-size:15px;
        font-weight: bolder;
        color:antiquewhite;
    
@@ -1791,7 +1790,7 @@ font-weight: bolder;
                                flex-direction: column;
                                width:50%;
                                align-items:center;
-                               font-size:25px;
+                               font-size:15px;
                                font-weight: bolder;
                                color:antiquewhite;
                                flex-direction: column;
@@ -1819,8 +1818,8 @@ font-weight: bolder;
                        
    
                            #foto-harold{
-                               width:450px;
-                               height: 450px;
+                               width:300px;
+                               height: 300px;
                                display:flex;
                                flex-direction: column;
                                border:solid brown;
@@ -1833,10 +1832,10 @@ font-weight: bolder;
                            .historia-fabi{
                                display:flex;
                                justify-content:start;
-                               width: 450px;
-                               height: 400px;
-                               font-size:20px ;
-                               font-weight: bolder;
+                               width: 300px;
+                               height: 300px;
+                               font-size:15px ;
+                               font-weight:bolder;
                                color:antiquewhite;
                                font-family:'Roboto', sans-serif ;
                                flex-direction: column;
@@ -1845,8 +1844,8 @@ font-weight: bolder;
                                            }
    
                            #foto-sarah{ 
-                                width:450px;
-                                height: 450px;
+                                width:300px;
+                                height: 300px;
                                 display:flex;
                                 flex-direction: column;
                                border:solid brown;
@@ -1860,10 +1859,10 @@ font-weight: bolder;
                               
                                 display:flex;
                                justify-content:start;
-                               width: 450px;
-                               height: 400px;
-                               font-size:20px ;
-                               font-weight: bolder;
+                               width: 300px;
+                               height: 300px;
+                               font-size:15px ;
+                               font-weight:bolder;
                                color:antiquewhite;
                                font-family:'Roboto', sans-serif ;
                                flex-direction: column;
@@ -1873,8 +1872,8 @@ font-weight: bolder;
                                            }
    
                                            #foto-isaac{
-                                               width:450px;
-                                               height: 450px;
+                                               width:300px;
+                                               height: 300px;
                                                display:flex;
                                                flex-direction: column;
                                               border:solid brown;
@@ -1886,9 +1885,9 @@ font-weight: bolder;
                                            .historia-isaac{
                                                display:flex;
                                                justify-content:start;
-                                               width: 450px;
-                                               height: 400px;
-                                               font-size:20px ;
+                                               width: 300px;
+                                               height: 300px;
+                                               font-size:15px ;
                                                font-weight: bolder;
                                                color:antiquewhite;
                                                font-family:'Roboto', sans-serif ;
