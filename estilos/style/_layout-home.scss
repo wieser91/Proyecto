@@ -32,6 +32,8 @@
                             margin-top: 50px;
                             align-items:flex-start;
                             align-content: left;
+                            margin-bottom: 30px;
+            
                             }
                             .pagina-conteiners{
                                 display:flex;
@@ -46,7 +48,8 @@
                                 flex-direction: column;
                                 align-items:center;
                                 margin-top:20px;
-                    
+                                margin-bottom: 100px;
+                              
                             }
 
                             .relleno-conteiners{
@@ -54,14 +57,15 @@
                                   flex-direction: column;
                                   color:antiquewhite;
                                   font-family:'Roboto', sans-serif;
-                                  font-size:20px ;
+                                  font-size:15px ;
                                   font-weight:lighter;
-                                  width: 60%;
+                                  width: 90%;
                                   justify-items:flex-end;
                                   align-items: center; 
                                   height: 100vh;  
-                                  padding-left:450px ;
+                                  margin-left:100px ;
                                   justify-content:start;
+                                
                                }
 
                                #header-index{
@@ -124,7 +128,7 @@
                              width: 800px;
                              height: 600px;
                              align-items: center;
-                             margin-top: 400px;
+                             margin-top: 100px;
                              border-radius: 10px;
                              margin-bottom: 400px;
                              border-style: solid black;

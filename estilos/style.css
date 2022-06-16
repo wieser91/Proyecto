@@ -77,6 +77,7 @@ li .opciones {
             align-items: flex-start;
     -ms-flex-line-pack: left;
         align-content: left;
+    margin-bottom: 30px;
   }
   .pagina-conteiners {
     display: -webkit-box;
@@ -97,6 +98,7 @@ li .opciones {
         -ms-flex-align: center;
             align-items: center;
     margin-top: 20px;
+    margin-bottom: 100px;
   }
   .relleno-conteiners {
     display: -webkit-box;
@@ -108,15 +110,15 @@ li .opciones {
             flex-direction: column;
     color: antiquewhite;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: lighter;
-    width: 60%;
+    width: 90%;
     justify-items: flex-end;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     height: 100vh;
-    padding-left: 450px;
+    margin-left: 100px;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
@@ -209,7 +211,7 @@ li .opciones {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 400px;
+    margin-top: 100px;
     border-radius: 10px;
     margin-bottom: 400px;
     border-style: solid black;
@@ -342,7 +344,7 @@ li .opciones {
     font-size: 15px;
     font-weight: lighter;
     width: 80%;
-    height: 100vh;
+    height: 70vh;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
@@ -475,14 +477,14 @@ li .opciones {
     display: -ms-flexbox;
     display: flex;
     width: 500px;
-    height: 400px;
+    height: 500px;
     -ms-flex-line-pack: center;
         align-content: center;
     justify-self: flex-start;
     margin-top: 150px;
     border-radius: 10px;
     border: solid brown;
-    margin-bottom: 400px;
+    margin-bottom: 200px;
     -webkit-box-pack: left;
         -ms-flex-pack: left;
             justify-content: left;
