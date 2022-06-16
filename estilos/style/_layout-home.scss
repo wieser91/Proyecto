@@ -1,0 +1,163 @@
+
+@media(min-width:1024px){
+#principal1{
+    width:100%;
+    background-image: url("../imagenes/istockphoto-1131318494-612x612.jpg");
+    background-size:100% 100% ;
+    background-attachment: fixed;
+    position: absolute;
+    background-blend-mode: soft-light;
+    background-color: rgba(50,50,50,0.75);
+    display:grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows:0.10fr 0.10fr 0.15fr 0.15fr auto ;
+    grid-template-areas: "header"
+                          "nav"
+                          "main"
+                          "section"
+                          "footer"    ;
+                          gap:10px;
+                          
+                          }
+
+                          .mayuscula{
+                            flex-direction:column;
+                            font-family:'Roboto', sans-serif;
+                            font-weight: bolder;
+                            padding:50px;
+                            justify-content: center;
+                            color:antiquewhite;
+                            width: 900px;
+                            height:20vh;
+                            margin-top: 50px;
+                            align-items:flex-start;
+                            align-content: left;
+                            }
+                            .pagina-conteiners{
+                                display:flex;
+                                width: 100%;
+                               
+                               }
+
+
+                               .tituloconteiner{
+                                display:flex;      
+                                font-size: 30px;
+                                flex-direction: column;
+                                align-items:center;
+                                margin-top:20px;
+                    
+                            }
+
+                            .relleno-conteiners{
+                                display:flex ;
+                                  flex-direction: column;
+                                  color:antiquewhite;
+                                  font-family:'Roboto', sans-serif;
+                                  font-size:20px ;
+                                  font-weight:lighter;
+                                  width: 60%;
+                                  justify-items:flex-end;
+                                  align-items: center; 
+                                  height: 100vh;  
+                                  padding-left:450px ;
+                                  justify-content:start;
+                               }
+
+                               #header-index{
+                                grid-area:header;
+                                width: 100%;
+                                display:flex;
+                                align-items: center;
+                                
+                            }
+                        
+                        
+                            #navegador-index{
+                             grid-area:nav;
+                                width: 100%;
+                            }
+                        
+                            #ul-index{
+                                display:flex;
+                                justify-content: space-evenly;
+                                align-content: center;
+                                width:100%;
+                                display:flex;
+                                flex-direction: row;
+                                justify-content: space-evenly;
+                        
+                        
+                     
+                        }
+                     
+                       
+                            #main-index{
+                                grid-area:main;
+                            }
+                        
+                            #section-index{
+                                grid-area:section;
+                            }
+                            #footer-index{
+                                grid-area:footer;
+                                background-color:$fondo-marron;
+                                width: 100%;
+                                display: flex;
+                                height: 100%;
+                                flex-direction: column;
+                                align-items: center;
+                     
+                            }
+                        
+                        #marco-index{
+                            display:flex;
+                            flex-direction: row;
+                            align-items: center;
+                            justify-content: center;
+                             width: 100%;
+                          
+                        
+                          }
+                         #foto-index{
+                             display: flex;
+                             width: 800px;
+                             height: 600px;
+                             align-items: center;
+                             margin-top: 400px;
+                             border-radius: 10px;
+                             margin-bottom: 400px;
+                             border-style: solid black;
+                            }
+
+                            .pie1{
+                                align-items: center;
+                                font-family:'Roboto', sans-serif;
+                                font-weight: bolder;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                color:white;
+                                font-size: 15px;
+                                text-decoration: none;
+                                margin:20px 10px;
+                                width:400px;
+                                height: 50px;
+                                border-radius: 10px;
+                                border:solid grey 5px;
+                                background-color: transparent;
+                                cursor:pointer;
+                               }
+                               .pie1:hover{
+                                   box-shadow:0 0 40px 10px inset;
+                               }
+
+                               
+
+
+
+
+}
+
+                        
+                            
