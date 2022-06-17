@@ -1,268 +1,11 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lato:wght@300;700&family=Lora:ital@1&family=Oooh+Baby&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Lora:ital@1&family=Oooh+Baby&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Mukta:wght@200&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Oooh+Baby&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lato:wght@300;700&family=Lora:ital@1&family=Oooh+Baby&display=swap');
-
+@import"variables";
+@import"generales";
+@import"layout-home";
+@import"layout-home-responsive";
 
 /*---------------------------mobile smartphone------------------------------------*/
 @media(max-width:1023px){
-
-
-    *{
-        padding: 0;
-        margin: 0;
-       }
-   
-       header{
-       background-color:brown;
-       padding: 20px;
-       list-style:none;
-       width: 100%;
-       }
-   
-       .flexconteiner{
-           display:flex;
-           justify-content: space-evenly;
-            }
-   
-       
-         li{
-       display:inline-block;
-       
-           }
-       
-footer{
-    width:100vw;
-}
-    
-        .opciones{
-       color:antiquewhite;
-       font-weight:bolder;
-       font-family: 'Roboto', sans-serif;
-       text-decoration: none;
-           display: flex;
-           justify-content: space-evenly;
-   
-           }
-   
-           .tituloconteiner{
-               display:flex;      
-               font-size: 40px;
-               flex-direction: column;
-               align-items:flex-end;
-   
-           }
-           
-           /*#section-titulo{
-               grid-area:section-titulo;
-               width: 70%;
-               display: flex;
-           }*/
-   
-   .mayuscula{
-       flex-direction:column;
-       font-family:'Roboto', sans-serif;
-       font-weight: bolder;
-       padding:0px;
-       justify-content: center;
-       color:antiquewhite;
-       width: 900px;
-       height:20vh;
-       margin-top: 50px;
-       align-items:flex-start;
-       align-content: left;
-       }
-       
-    
-     
-   #principal1{
-       width:100%;
-       background-image: url("../imagenes/istockphoto-1131318494-612x612.jpg");
-       background-size:100% 100% ;
-       background-color: rgba(50,50,50,0.75);
-       background-attachment: fixed;
-       position: absolute;
-       background-blend-mode: soft-light;
-       display:grid;
-       grid-template-columns: 1fr;
-       grid-template-rows:0.10fr 0.10fr 0.5fr 0.5fr auto ;
-       grid-template-areas:     "header"
-                                "nav"
-                                "main"
-                            "section-titulo"
-                                "section"        
-                                 "footer"
-                            }
-                          /*  .pagina-conteiners{
-                                display:flex;
-                                height: 100%;
-                                flex-direction: column;
-                                align-items: center;
-
-                             
-                               }*/
-                        
-                        
-                            .relleno-conteiners{
-                                display:flex ;
-                                flex-direction:column;
-                                flex-wrap: wrap;
-                                color:antiquewhite;
-                                font-family:'Roboto', sans-serif;
-                                font-size:21px ;
-                                font-weight:bolder;
-                                width: 80%;
-                                height: 100vh;
-                                justify-content:space-evenly;
-                                align-items:flex-start;
-                                display:grid;
-                                grid-template-columns: 0.5fr;
-                                grid-template-rows: 0.5fr 0.5fr 0.5fr;
-                                grid-template-areas: "lorem1"
-                                                      "lorem2"
-                                                     "marco-index"
-                  
-                  
-                                                     
-                                }
-                #lorem1{
-                   grid-area:lorem1;
-
-                }
-                            #lorem2{
-                                grid-area:lorem2;
-                            }
-
-
-
-       #header-index{
-        grid-area:header;
-           display:flex;
-           background-color: brown;
-           font-size: 25px;
-
-           
-       
-       }
-   
-   
-       #navegador-index{
-           grid-area:nav;
-           display:flex;
-           flex-direction:column;
-           width: 100%;
-           height: 100%;
-       }
-   
-       #ul-index{
-           display:flex;
-           justify-content: space-evenly;
-           flex-direction: column;
-           width: 70%;
-           align-items:center;
-       }
-
-   
-   
-       #main-index{
-           grid-area:main;
-           display:flex;
-           flex-wrap: wrap;
-         
-       }
-   
-       #section-index{
-           grid-area:section;
-           display:flex;
-           justify-content: flex-start;
-       }
-
-       #section-titulo{
-        grid-area:section-titulo;
-       }
-       #footer-index{
-           grid-area:footer;
-           background-color: brown;
-           display: flex;
-           flex-direction: column;
-           width: 100%;
-           height: 100%;
-           align-self: center;
-        }
-
-       
-   
-   #marco-index{
-       display:flex;
-       flex-direction: row;
-       align-items: center;
-       justify-content: center;
-        width: 100%;
-        height: 100%;
-        grid-area:marco-index;
-    }
-    
-  
-  
-       #foto-index{
-        display: flex;
-        width: 500px;
-        height: 400px;
-        align-content:center;
-        justify-self:flex-start;
-        margin-top: 150px;
-        border-radius: 10px;
-        border:solid brown;
-        margin-bottom: 400px;
-        justify-content: left;
-        grid-area:foto-index;
-       }
-   
-.tituloconteiner{
-    margin-bottom: 50px;
-}
-
-  /* .pie1{
-           display: flex;
-          align-items: center;
-          align-self: center;
-          font-style: italic;
-       }
-   */
-   
-    
-   .pie1{
-    align-items: center;
-    font-family:'Roboto', sans-serif;
-    font-weight: bolder;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color:white;
-    font-size: 20px;
-    text-decoration: none;
-    margin:20px 10px;
-    width:400px;
-    height: 50px;
-    border-radius: 10px;
-    border:solid grey 5px;
-    background-color: transparent;
-    cursor:pointer;
-    margin-left:250px;
-   }
-   .pie1:hover{
-       box-shadow:0 0 40px 10px inset;
-   }
-
-
-
-
 
 
        #formulario-contacto{
@@ -296,30 +39,7 @@ footer{
        padding-bottom: 0px;
        font-weight: bolder;
    }
-   /*.container-consultas{
-       padding-top:80px;
-       font-family:'Roboto', sans-serif ;
-       padding-bottom:0px ;
-       font-weight: bolder;
-       color:antiquewhite;
-       display: flex;
-       flex-direction: column;
-       justify-content:center;
-       width: 50%;
-       height: 50%;
-       padding-left: 100px;
-       background-color: black;
-       border-radius: 100%;
-       }
-       */
-   
- /* #conteiner-clientes{
-       display: flex;
-       width: 5000%;
-    
-
-       }*/
-   
+  
     #quiensos{
        font-family:'Roboto', sans-serif;
        padding-top:30px ; 
@@ -506,11 +226,7 @@ align-items: center;
 
 
 
-   .pie1{
-       color:blanchedalmond;
-       font-family:'Bree Serif', serif ;
-       font-size: 20px;
-   }
+  
    
    .text-conteiner{
        display:flex;
@@ -522,21 +238,7 @@ align-items: center;
        height:auto ;
    }
    
-   /*.parrafos-conteiners{
-       
-   justify-content:space-between;
-       display:flex;
-       width:75%;
-       flex-direction: row;
-       gap:80px;
-       align-items: flex-start;
-       font-size:20px;
-       font-weight: bolder;
-       color:antiquewhite;
-       
-   
-       {*/
-       
+  
 
             
     
@@ -559,7 +261,7 @@ align-items: center;
        width:70%;
        flex-direction: column;
        align-items: flex-start;
-       font-size:20px;
+       font-size:15px;
        font-weight: bolder;
        color:antiquewhite;
        flex-wrap: wrap;
@@ -716,7 +418,7 @@ align-items: center;
                                display:flex;
                                flex-direction: column;
                                width:50%;
-                               font-size:20px;
+                               font-size:15px;
                                font-weight: bolder;
                                color:antiquewhite;
                                flex-direction: column;
@@ -735,10 +437,10 @@ align-items: center;
                              height: 100%;
                     
                              align-items:center;
-                             gap:10px;
+                             gap:5px;
                              display:grid; 
                              grid-template-columns: 1fr;
-                             grid-template-rows: 1fr 1fr 1fr 1fr 1fr  auto;
+                             grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr  auto;
                              grid-template-areas:"foto-harold"
                                                 "historia-harold"
                                                  "foto-sarah" 
@@ -748,8 +450,8 @@ align-items: center;
                                            }
                    
                                     #foto-harold{
-                                        width:450px;
-                                        height: 450px;
+                                        width:300px;
+                                        height: 300px;
                                         display:flex;
                                         flex-direction: column;
                                         border:solid grey;
@@ -762,20 +464,21 @@ align-items: center;
                                     .historia-fabi{
                                         display:flex;
                                         justify-content:start;
-                                        width: 450px;
-                                        height: 400px;
-                                        font-size:20px ;
+                                        width: 300px;
+                                        height: 300px;
+                                        font-size:15px ;
                                         font-weight: bolder;
                                         color:antiquewhite;
                                         font-family:'Roboto', sans-serif ;
                                         flex-direction: column;
                                         grid-area:historia-harold;
+                                        margin-bottom:40px;
                    
                                                     }
             
                                     #foto-sarah{ 
-                                         width:450px;
-                                         height: 450px;
+                                         width:300px;
+                                         height: 300px;
                                          display:flex;
                                          flex-direction: column;
                                         border:solid antiquewhite;
@@ -788,9 +491,9 @@ align-items: center;
                                      .historia-sarah{
                                         display:flex;
                                         justify-content:start;
-                                        width: 450px;
-                                        height: 400px;
-                                        font-size:20px ;
+                                        width: 300px;
+                                        height: 300px;
+                                        font-size:15px ;
                                         font-weight: bolder;
                                         color:antiquewhite;
                                         font-family:'Roboto', sans-serif ;
@@ -801,8 +504,8 @@ align-items: center;
                                                     }
             
                                                     #foto-isaac{
-                                                        width:450px;
-                                                        height: 450px;
+                                                        width:300px;
+                                                        height: 300px;
                                                         display:flex;
                                                         flex-direction: column;
                                                        border:solid antiquewhite;
@@ -814,9 +517,9 @@ align-items: center;
                                                     .historia-isaac{
                                                         display:flex;
                                                         justify-content:start;
-                                                        width: 450px;
-                                                        height: 400px;
-                                                        font-size:20px ;
+                                                        width: 300px;
+                                                        height: 300px;
+                                                        font-size:15px ;
                                                         font-weight: bolder;
                                                         color:antiquewhite;
                                                         font-family:'Roboto', sans-serif ;
@@ -984,26 +687,30 @@ align-items: center;
                           #parrafo1{
                              background-blend-mode :soft-light;
                              grid-area:parrafo1;
-                             font-size: 20px;
+                             font-size: 15px;
                              font-weight: bolder;
+                             margin-bottom:50px;
                           }
                          
                           #parrafo2{
                               grid-area:parrafo2;
-                               font-size:20px ;
+                               font-size:15px ;
                          font-weight: bolder;
+                         margin-bottom:50px;
                          
                          }
                           #parrafo3{
                               grid-area:parrafo3;
-                              font-size: 20px;
+                              font-size: 15px;
                               font-weight: bolder;
+                              margin-bottom:50px;
                           }
                          
                           #parrafo4{
                               grid-area:parrafo4;
-                              font-size: 20px;
+                              font-size: 15px;
                               font-weight: bolder;
+                              margin-bottom: 200px;
                           }
                          
                          
@@ -1047,18 +754,8 @@ align-items: center;
          /*-----------------------------desktop-----------------------------*/
 @media(min-width:1024px){
 
-    *{
-        padding: 0;
-        margin: 0;
-       }
    
-       header{
-      background-color:brown;
-       padding: 20px;
-       width: 100vw;
-       list-style:none;
-       position:relative;
-       }
+      
 
        /*{
         box-sizing:border-box; 
@@ -1066,70 +763,19 @@ align-items: center;
        }*/
 
 
-       .flexconteiner{
-           display:flex;
-           justify-content: space-evenly;
-
-           
-   
-           }
-   
-       
-         li{
-       display:inline-block;
-       
-           }
-
-           .opciones{
-           
-            color:antiquewhite;
-           font-weight:bolder;
-           font-family: 'Roboto', sans-serif;
-           text-decoration: none;
-               font-size: 25px; 
-               width: 100vw;
-            
-               }
-        .opciones:hover{
+      
+        /*.opciones:hover{
             transform: scale(2);
             transition-property: all;
             transition-duration: 1s;
-        }
+        }*/
 
        
    
    
-           .tituloconteiner{
-               display:flex;      
-               font-size: 40px;
-               flex-direction: column;
-               align-items:center;
-               margin-top:20px;
-   
-           }
            
-           
-   
-   .mayuscula{
 
-  
-       display:flex;
-       flex-direction:column;
-       font-family:'Roboto', sans-serif;
-       font-weight: bolder;
-       padding:50px;
-       justify-content: center;
-       color:antiquewhite;
-       width: 900px;
-       height:20vh;
-       margin-top: 50px;
-       }
-       
-       .pagina-conteiners{
-           display:flex;
-           width: 100%;
-          
-          }
+     
    
    
        .relleno-conteiners{
@@ -1164,91 +810,11 @@ align-items: center;
    */
    
    
-   #principal1{
-       width:100%;
-       background-image: url("../imagenes/istockphoto-1131318494-612x612.jpg");
-       background-size:100% 100% ;
-       background-attachment: fixed;
-       position: absolute;
-       background-blend-mode: soft-light;
-       background-color: rgba(50,50,50,0.75);
-       display:grid;
-       grid-template-columns: 1fr ;
-       grid-template-rows:0.10fr 0.10fr 0.15fr 0.15fr auto ;
-       grid-template-areas: "header"
-                             "nav"
-                             "main"
-                             "section"
-                             "footer"    ;
-                             gap:10px;
+ 
                     
-       }
+       
    
-       #header-index{
-           grid-area:header;
-           width: 100%;
-           display:flex;
-           align-items: center;
-           
-       }
-   
-   
-       #navegador-index{
-        grid-area:nav;
-           width: 100%;
-       }
-   
-       #ul-index{
-           display:flex;
-           justify-content: space-evenly;
-           align-content: center;
-           width:100%;
-           display:flex;
-           flex-direction: row;
-           justify-content: space-evenly;
-   
-   
-
-   }
-
-  
-       #main-index{
-           grid-area:main;
-       }
-   
-       #section-index{
-           grid-area:section;
-       }
-       #footer-index{
-           grid-area:footer;
-           background-color: brown;
-           width: 100%;
-           display: flex;
-           height: 100%;
-           flex-direction: column;
-           align-items: center;
-
-       }
-   
-   #marco-index{
-       display:flex;
-       flex-direction: row;
-       align-items: center;
-       justify-content: center;
-        width: 100%;
      
-   
-     }
-    #foto-index{
-        display: flex;
-        width: 800px;
-        height: 600px;
-        align-items: center;
-        margin-top: 400px;
-        border-radius: 10px;
-        margin-bottom: 400px;
-        border-style: solid black;
-       }
    
       /* #footer-index{
            display: flex;
@@ -1258,27 +824,7 @@ align-items: center;
            align-items: center;
        } */
    
-       .pie1{
-          align-items: center;
-          font-family:'Roboto', sans-serif;
-          font-weight: bolder;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          color:white;
-          font-size: 20px;
-          text-decoration: none;
-          margin:20px 10px;
-          width:400px;
-          height: 50px;
-          border-radius: 10px;
-          border:solid grey 5px;
-          background-color: transparent;
-          cursor:pointer;
-         }
-         .pie1:hover{
-             box-shadow:0 0 40px 10px inset;
-         }
+      
    
    
     
@@ -1305,6 +851,9 @@ align-items: center;
            width: 900px;
        }*/
    
+
+
+
    .colorform{
         width: 300px;
         height: 300px;
@@ -1585,25 +1134,25 @@ background-color: bisque;
 #parrafo1{
 background-blend-mode :soft-light;
 grid-area:parrafo1;
-font-size: 20px;
+font-size: 15px;
 font-weight: bolder;
 }
 
 #parrafo2{
  grid-area:parrafo2;
-  font-size:20px ;
+  font-size:15px ;
 font-weight: bolder;
 
 }
 #parrafo3{
  grid-area:parrafo3;
- font-size: 20px;
+ font-size: 15px;
  font-weight: bolder;
 }
 
 #parrafo4{
  grid-area:parrafo4;
- font-size: 20px;
+ font-size: 15px;
  font-weight: bolder;
 }
 
@@ -1635,7 +1184,7 @@ font-weight: bolder;
        width:55%;
        flex-direction: column;
        align-items: flex-start;
-       font-size:20px;
+       font-size:15px;
        font-weight: bolder;
        color:antiquewhite;
    
@@ -1790,7 +1339,7 @@ font-weight: bolder;
                                flex-direction: column;
                                width:50%;
                                align-items:center;
-                               font-size:25px;
+                               font-size:15px;
                                font-weight: bolder;
                                color:antiquewhite;
                                flex-direction: column;
@@ -1818,8 +1367,8 @@ font-weight: bolder;
                        
    
                            #foto-harold{
-                               width:450px;
-                               height: 450px;
+                               width:300px;
+                               height: 300px;
                                display:flex;
                                flex-direction: column;
                                border:solid brown;
@@ -1832,10 +1381,10 @@ font-weight: bolder;
                            .historia-fabi{
                                display:flex;
                                justify-content:start;
-                               width: 450px;
-                               height: 400px;
-                               font-size:20px ;
-                               font-weight: bolder;
+                               width: 300px;
+                               height: 300px;
+                               font-size:15px ;
+                               font-weight:bolder;
                                color:antiquewhite;
                                font-family:'Roboto', sans-serif ;
                                flex-direction: column;
@@ -1844,8 +1393,8 @@ font-weight: bolder;
                                            }
    
                            #foto-sarah{ 
-                                width:450px;
-                                height: 450px;
+                                width:300px;
+                                height: 300px;
                                 display:flex;
                                 flex-direction: column;
                                border:solid brown;
@@ -1859,10 +1408,10 @@ font-weight: bolder;
                               
                                 display:flex;
                                justify-content:start;
-                               width: 450px;
-                               height: 400px;
-                               font-size:20px ;
-                               font-weight: bolder;
+                               width: 300px;
+                               height: 300px;
+                               font-size:15px ;
+                               font-weight:bolder;
                                color:antiquewhite;
                                font-family:'Roboto', sans-serif ;
                                flex-direction: column;
@@ -1872,8 +1421,8 @@ font-weight: bolder;
                                            }
    
                                            #foto-isaac{
-                                               width:450px;
-                                               height: 450px;
+                                               width:300px;
+                                               height: 300px;
                                                display:flex;
                                                flex-direction: column;
                                               border:solid brown;
@@ -1885,9 +1434,9 @@ font-weight: bolder;
                                            .historia-isaac{
                                                display:flex;
                                                justify-content:start;
-                                               width: 450px;
-                                               height: 400px;
-                                               font-size:20px ;
+                                               width: 300px;
+                                               height: 300px;
+                                               font-size:15px ;
                                                font-weight: bolder;
                                                color:antiquewhite;
                                                font-family:'Roboto', sans-serif ;
