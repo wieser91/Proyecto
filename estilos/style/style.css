@@ -103,6 +103,21 @@ li .opciones {
     margin-bottom: 100px;
   }
 
+  /*.relleno-conteiners{
+                                  display:flex;
+                                    color:antiquewhite;
+                                    font-family:'Roboto', sans-serif;
+                                    font-size:15px;
+                                    font-weight:lighter;
+                                    width: 90%;
+                                    justify-items:center;
+                                    align-items: center; 
+                                    height: 100vh;  
+                                    margin-left:100px ;
+                                    justify-content:start;
+
+                                 }
+  */
   .relleno-conteiners {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -115,16 +130,16 @@ li .opciones {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: lighter;
-    width: 90%;
-    justify-items: flex-end;
+    width: 80%;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     height: 100vh;
-    margin-left: 100px;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
+    margin-left: 150px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 10px;
   }
 
   #header-index {
@@ -207,12 +222,12 @@ li .opciones {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 800px;
-    height: 600px;
+    width: 500px;
+    height: 550px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 100px;
+    margin-top: 50px;
     border-radius: 10px;
     margin-bottom: 400px;
     border-style: solid black;
@@ -1448,30 +1463,6 @@ li .opciones {
       transition-property: all;
       transition-duration: 1s;
   }*/
-  .relleno-conteiners {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    color: antiquewhite;
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-    font-weight: lighter;
-    width: 80%;
-    justify-items: flex-end;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    height: 100vh;
-    padding-left: 450px;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
-  }
-
   /*  #lorem1{
 
            transform: scale(0.3);

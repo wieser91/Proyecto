@@ -52,21 +52,51 @@
                               
                             }
 
-                            .relleno-conteiners{
-                                display:flex ;
-                                  flex-direction: column;
+                            /*.relleno-conteiners{
+                                display:flex;
                                   color:antiquewhite;
                                   font-family:'Roboto', sans-serif;
-                                  font-size:15px ;
+                                  font-size:15px;
                                   font-weight:lighter;
                                   width: 90%;
-                                  justify-items:flex-end;
+                                  justify-items:center;
                                   align-items: center; 
                                   height: 100vh;  
                                   margin-left:100px ;
                                   justify-content:start;
                                 
                                }
+*/
+
+                               .relleno-conteiners{
+                                display:flex ;
+                                flex-direction: column;
+                                  color:antiquewhite;
+                                  font-family:'Roboto', sans-serif;
+                                  font-size:15px ;
+                                  font-weight:lighter;
+                                  width: 80%;
+                                  align-items: center; 
+                                  height: 100vh;  
+                                  margin-left:150px ;
+                                  justify-content: center;
+                                  gap:10px;
+                                
+                               }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                                #header-index{
                                 grid-area:header;
@@ -102,6 +132,7 @@
                         
                             #section-index{
                                 grid-area:section;
+                           
                             }
                             #footer-index{
                                 grid-area:footer;
@@ -125,10 +156,10 @@
                           }
                          #foto-index{
                              display: flex;
-                             width: 800px;
-                             height: 600px;
+                             width: 500px;
+                             height: 550px;
                              align-items: center;
-                             margin-top: 100px;
+                             margin-top: 50px;
                              border-radius: 10px;
                              margin-bottom: 400px;
                              border-style: solid black;
