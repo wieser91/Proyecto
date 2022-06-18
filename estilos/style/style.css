@@ -10,7 +10,7 @@
 }
 
 header {
-  background-color: brown;
+  background-color: rgb(118, 79, 42);
   padding: 20px;
   width: 100vw;
   list-style: none;
@@ -78,6 +78,8 @@ li .opciones {
     -ms-flex-line-pack: left;
         align-content: left;
     margin-bottom: 30px;
+    -webkit-box-shadow: 10px 10px 10px black;
+            box-shadow: 10px 10px 10px black;
   }
 
   .pagina-conteiners {
@@ -101,6 +103,8 @@ li .opciones {
             align-items: center;
     margin-top: 20px;
     margin-bottom: 100px;
+    -webkit-box-shadow: 10px 10px 10px black;
+            box-shadow: 10px 10px 10px black;
   }
 
   /*.relleno-conteiners{
@@ -140,6 +144,10 @@ li .opciones {
         -ms-flex-pack: center;
             justify-content: center;
     gap: 10px;
+    -webkit-box-shadow: 10px 10px 10px black;
+            box-shadow: 10px 10px 10px black;
+    background: rgba(5, 7, 12, 0.4);
+    padding: 0px 80px 0px 80px;
   }
 
   #header-index {
@@ -186,7 +194,7 @@ li .opciones {
 
   #footer-index {
     grid-area: footer;
-    background-color: brown;
+    background-color: rgb(118, 79, 42);
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -231,6 +239,8 @@ li .opciones {
     border-radius: 10px;
     margin-bottom: 400px;
     border-style: solid black;
+    -webkit-box-shadow: 10px 10px 10px black;
+            box-shadow: 10px 10px 10px black;
   }
 
   .pie1 {
@@ -256,11 +266,14 @@ li .opciones {
     border: solid grey 5px;
     background-color: transparent;
     cursor: pointer;
+    -webkit-box-shadow: 10px 10px 10px black;
+            box-shadow: 10px 10px 10px black;
+    color: antiquewhite;
   }
-
   .pie1:hover {
-    -webkit-box-shadow: 0 0 40px 10px inset;
-            box-shadow: 0 0 40px 10px inset;
+    -webkit-box-shadow: 0 0 40px 10px inset antiquewhite;
+            box-shadow: 0 0 40px 10px inset antiquewhite;
+    color: black;
   }
 }
 @media (max-width: 1023px) {
@@ -501,7 +514,7 @@ li .opciones {
     justify-self: flex-start;
     margin-top: 150px;
     border-radius: 10px;
-    border: solid brown;
+    border: solid antiquewhite;
     margin-bottom: 200px;
     -webkit-box-pack: left;
         -ms-flex-pack: left;
@@ -1638,6 +1651,8 @@ li .opciones {
     font-weight: bolder;
     color: antiquewhite;
     margin: 100px;
+    -webkit-box-shadow: 10px 10px 10px black;
+            box-shadow: 10px 10px 10px black;
   }
 
   .fabi1 {
@@ -1673,7 +1688,7 @@ li .opciones {
     grid-area: footer-contacto;
     width: 100%;
     height: 100%;
-    background-color: brown;
+    background-color: rgb(118, 79, 42);
   }
 
   #footer-social {
@@ -1735,7 +1750,7 @@ li .opciones {
 
   #footer-servicios {
     grid-area: footer-servicios;
-    background-color: brown;
+    background-color: rgb(118, 79, 42);
   }
 
   #section-servicios {
@@ -1765,7 +1780,13 @@ li .opciones {
     width: 300px;
     height: 300px;
     border-radius: 20%;
-    border: solid brown;
+    border: solid rgb(118, 79, 42);
+    -webkit-box-shadow: 10px 10px 10px black;
+            box-shadow: 10px 10px 10px black;
+  }
+  #foto1:hover {
+    -webkit-box-shadow: 0 0 40px 10px inset antiquewhite;
+            box-shadow: 0 0 40px 10px inset antiquewhite;
   }
 
   #foto2 {
@@ -1773,7 +1794,13 @@ li .opciones {
     width: 300px;
     height: 300px;
     border-radius: 20%;
-    border: solid brown;
+    border: solid rgb(118, 79, 42);
+    -webkit-box-shadow: 10px 10px 10px black;
+            box-shadow: 10px 10px 10px black;
+  }
+  #foto2:hover {
+    -webkit-box-shadow: 0 0 40px 10px inset antiquewhite;
+            box-shadow: 0 0 40px 10px inset antiquewhite;
   }
 
   #foto3 {
@@ -1781,7 +1808,13 @@ li .opciones {
     width: 300px;
     height: 300px;
     border-radius: 20%;
-    border: solid brown;
+    border: solid rgb(118, 79, 42);
+    -webkit-box-shadow: 10px 10px 10px black;
+            box-shadow: 10px 10px 10px black;
+  }
+  #foto3:hover {
+    -webkit-box-shadow: 0 0 40px 10px inset antiquewhite;
+            box-shadow: 0 0 40px 10px inset antiquewhite;
   }
 
   #foto4 {
@@ -1789,7 +1822,13 @@ li .opciones {
     width: 300px;
     height: 300px;
     border-radius: 20%;
-    border: solid brown;
+    border: solid rgb(118, 79, 42);
+    -webkit-box-shadow: 10px 10px 10px black;
+            box-shadow: 10px 10px 10px black;
+  }
+  #foto4:hover {
+    -webkit-box-shadow: 0 0 40px 10px inset antiquewhite;
+            box-shadow: 0 0 40px 10px inset antiquewhite;
   }
 
   #parrafo1 {
@@ -1798,11 +1837,21 @@ li .opciones {
     font-size: 15px;
     font-weight: bolder;
   }
+  #parrafo1:hover {
+    -webkit-box-shadow: 0 0 40px 10px inset antiquewhite;
+            box-shadow: 0 0 40px 10px inset antiquewhite;
+    border-radius: 5px;
+  }
 
   #parrafo2 {
     grid-area: parrafo2;
     font-size: 15px;
     font-weight: bolder;
+  }
+  #parrafo2:hover {
+    -webkit-box-shadow: 0 0 40px 10px inset antiquewhite;
+            box-shadow: 0 0 40px 10px inset antiquewhite;
+    border-radius: 5px;
   }
 
   #parrafo3 {
@@ -1810,11 +1859,21 @@ li .opciones {
     font-size: 15px;
     font-weight: bolder;
   }
+  #parrafo3:hover {
+    -webkit-box-shadow: 0 0 40px 10px inset antiquewhite;
+            box-shadow: 0 0 40px 10px inset antiquewhite;
+    border-radius: 5px;
+  }
 
   #parrafo4 {
     grid-area: parrafo4;
     font-size: 15px;
     font-weight: bolder;
+  }
+  #parrafo4:hover {
+    -webkit-box-shadow: 0 0 40px 10px inset antiquewhite;
+            box-shadow: 0 0 40px 10px inset antiquewhite;
+    border-radius: 5px;
   }
 
   .historia-conteiner {
@@ -1826,17 +1885,17 @@ li .opciones {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding: 160px;
+    margin-top: 80px;
   }
-
-  .parrafos-historia {
+  .historia-conteiner .parrafos-historia {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 55%;
+    width: 60%;
+    height: 55vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1847,6 +1906,9 @@ li .opciones {
     font-size: 15px;
     font-weight: bolder;
     color: antiquewhite;
+    background: rgba(5, 7, 12, 0.4);
+    padding: 30px;
+    border-radius: 10px;
   }
 
   #marco-laptop {
@@ -1878,6 +1940,8 @@ li .opciones {
             justify-content: center;
     border-radius: 10px;
     border: solid gray;
+    -webkit-box-shadow: 10px 10px 10px rgb(172, 126, 42);
+            box-shadow: 10px 10px 10px rgb(172, 126, 42);
   }
 
   .bodyhistoria {
@@ -1918,7 +1982,7 @@ li .opciones {
 
   #footer-historia {
     grid-area: footer;
-    background-color: brown;
+    background-color: rgb(118, 79, 42);
   }
 
   #ul-historia {
@@ -2013,14 +2077,17 @@ li .opciones {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 50%;
+    width: 55%;
+    height: 50vh;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    font-size: 15px;
-    font-weight: bolder;
+    font-size: 17px;
+    font-weight: lighter;
+    background: rgba(5, 7, 12, 0.4);
     color: antiquewhite;
-    flex-direction: column;
+    border-radius: 20px;
+    padding: 0px 20px 0px 20px;
   }
 
   #section-experiencia2 {
@@ -2059,9 +2126,11 @@ li .opciones {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    border: solid brown;
+    border: solid rgb(118, 79, 42);
     grid-area: foto-harold;
     border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 10px black;
+            box-shadow: 10px 10px 10px black;
   }
 
   .historia-fabi {
@@ -2072,7 +2141,7 @@ li .opciones {
         -ms-flex-pack: start;
             justify-content: start;
     width: 300px;
-    height: 300px;
+    height: 450px;
     font-size: 15px;
     font-weight: bolder;
     color: antiquewhite;
@@ -2082,6 +2151,8 @@ li .opciones {
         -ms-flex-direction: column;
             flex-direction: column;
     grid-area: historia-harold;
+    background: rgba(5, 7, 12, 0.4);
+    padding: 20px;
   }
 
   #foto-sarah {
@@ -2094,9 +2165,11 @@ li .opciones {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    border: solid brown;
+    border: solid rgb(118, 79, 42);
     grid-area: foto-sarah;
     border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 10px black;
+            box-shadow: 10px 10px 10px black;
   }
 
   .historia-sarah {
@@ -2117,6 +2190,8 @@ li .opciones {
         -ms-flex-direction: column;
             flex-direction: column;
     grid-area: historia-sarah;
+    background: rgba(5, 7, 12, 0.4);
+    padding: 20px;
   }
 
   #foto-isaac {
@@ -2129,9 +2204,11 @@ li .opciones {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    border: solid brown;
+    border: solid rgb(118, 79, 42);
     grid-area: foto-isaac;
     border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 10px black;
+            box-shadow: 10px 10px 10px black;
   }
 
   .historia-isaac {
@@ -2152,6 +2229,8 @@ li .opciones {
         -ms-flex-direction: column;
             flex-direction: column;
     grid-area: historia-isaac;
+    background: rgba(5, 7, 12, 0.4);
+    padding: 20px;
   }
 
   #footer-experiencia {
@@ -2159,7 +2238,7 @@ li .opciones {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    background-color: brown;
+    background-color: rgb(118, 79, 42);
   }
 
   #footer-social {
