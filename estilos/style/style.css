@@ -282,6 +282,7 @@ li .opciones {
     padding: 20px;
     list-style: none;
     width: 100%;
+    background-color: rgb(118, 79, 42);
   }
 
   .flexconteiner {
@@ -326,6 +327,8 @@ li .opciones {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
+    -webkit-box-shadow: 10px 10px 10px black;
+            box-shadow: 10px 10px 10px black;
   }
 
   .mayuscula {
@@ -348,6 +351,8 @@ li .opciones {
             align-items: flex-start;
     -ms-flex-line-pack: left;
         align-content: left;
+    -webkit-box-shadow: 10px 10px 10px black;
+            box-shadow: 10px 10px 10px black;
   }
 
   #principal1 {
@@ -360,14 +365,18 @@ li .opciones {
     background-blend-mode: soft-light;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-    -ms-grid-rows: 0.1fr 0.1fr 0.5fr 0.5fr auto;
-    grid-template-rows: 0.1fr 0.1fr 0.5fr 0.5fr auto;
+    -ms-grid-columns: 0.4fr;
+    grid-template-columns: 0.4fr;
+    -ms-grid-rows: 0.05fr 0.1fr 0.25fr 0.1fr 0.35fr auto;
+    grid-template-rows: 0.05fr 0.1fr 0.25fr 0.1fr 0.35fr auto;
         grid-template-areas: "header" "nav" "main" "section-titulo" "section" "footer";
   }
 
   .relleno-conteiners {
+    border-radius: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -381,8 +390,9 @@ li .opciones {
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     font-weight: lighter;
-    width: 80%;
-    height: 70vh;
+    background: rgba(5, 7, 12, 0.4);
+    width: auto;
+    height: auto;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
@@ -391,10 +401,10 @@ li .opciones {
             align-items: flex-start;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 0.5fr;
-    grid-template-columns: 0.5fr;
-    -ms-grid-rows: 0.25fr 0.25fr 0.15fr;
-    grid-template-rows: 0.25fr 0.25fr 0.15fr;
+    -ms-grid-columns: 0.35fr;
+    grid-template-columns: 0.35fr;
+    -ms-grid-rows: 0.15fr 0.15fr 0.25fr;
+    grid-template-rows: 0.15fr 0.15fr 0.25fr;
         grid-template-areas: "lorem1" "lorem2" "marco-index";
   }
 
@@ -459,9 +469,9 @@ li .opciones {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
   #section-titulo {
@@ -470,7 +480,7 @@ li .opciones {
 
   #footer-index {
     grid-area: footer;
-    background-color: brown;
+    background-color: rgb(118, 79, 42);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -479,7 +489,8 @@ li .opciones {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    position: absolute;
     -ms-grid-row-align: center;
         align-self: center;
   }
@@ -499,7 +510,6 @@ li .opciones {
         -ms-flex-pack: center;
             justify-content: center;
     width: 100%;
-    height: 100%;
     grid-area: marco-index;
   }
 
@@ -520,6 +530,8 @@ li .opciones {
         -ms-flex-pack: left;
             justify-content: left;
     grid-area: foto-index;
+    -webkit-box-shadow: 10px 10px 10px black;
+            box-shadow: 10px 10px 10px black;
   }
 
   .tituloconteiner {
@@ -554,10 +566,14 @@ li .opciones {
     background-color: transparent;
     cursor: pointer;
     margin-left: 250px;
+    -webkit-box-shadow: 10px 10px 10px black;
+            box-shadow: 10px 10px 10px black;
+    color: antiquewhite;
   }
   .pie1:hover {
-    -webkit-box-shadow: 0 0 40px 10px inset;
-            box-shadow: 0 0 40px 10px inset;
+    -webkit-box-shadow: 0 0 40px 10px inset antiquewhite;
+            box-shadow: 0 0 40px 10px inset antiquewhite;
+    color: black;
   }
 
   /* .pie1{
@@ -807,7 +823,7 @@ li .opciones {
     grid-area: footer-contacto;
     width: 100%;
     height: 100%;
-    background-color: brown;
+    background-color: rgb(118, 79, 42);
   }
 
   #footer-social {
@@ -965,7 +981,7 @@ li .opciones {
 
   #footer-historia {
     grid-area: footer;
-    background-color: brown;
+    background-color: rgb(118, 79, 42);
     width: 100%;
     height: 100%;
   }
@@ -1081,9 +1097,11 @@ li .opciones {
             flex-direction: column;
     width: 50%;
     font-size: 15px;
-    font-weight: bolder;
+    font-weight: lighter;
     color: antiquewhite;
     flex-direction: column;
+    background: rgba(5, 7, 12, 0.4);
+    padding: 50px;
   }
 
   #section-experiencia2 {
@@ -1126,6 +1144,9 @@ li .opciones {
     border: solid grey;
     grid-area: foto-harold;
     border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 5px black;
+            box-shadow: 10px 10px 5px black;
+    margin-bottom: 20px;
   }
 
   .historia-fabi {
@@ -1135,10 +1156,11 @@ li .opciones {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
+    padding: 20px;
     width: 300px;
-    height: 300px;
+    height: 410px;
     font-size: 15px;
-    font-weight: bolder;
+    font-weight: lighter;
     color: antiquewhite;
     font-family: "Roboto", sans-serif;
     -webkit-box-orient: vertical;
@@ -1147,6 +1169,8 @@ li .opciones {
             flex-direction: column;
     grid-area: historia-harold;
     margin-bottom: 40px;
+    background: rgba(5, 7, 12, 0.4);
+    border-radius: 10px;
   }
 
   #foto-sarah {
@@ -1162,6 +1186,9 @@ li .opciones {
     border: solid antiquewhite;
     grid-area: foto-sarah;
     border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 5px black;
+            box-shadow: 10px 10px 5px black;
+    margin-bottom: 20px;
   }
 
   .historia-sarah {
@@ -1173,8 +1200,9 @@ li .opciones {
             justify-content: start;
     width: 300px;
     height: 300px;
+    padding: 20px;
     font-size: 15px;
-    font-weight: bolder;
+    font-weight: lighter;
     color: antiquewhite;
     font-family: "Roboto", sans-serif;
     -webkit-box-orient: vertical;
@@ -1182,6 +1210,9 @@ li .opciones {
         -ms-flex-direction: column;
             flex-direction: column;
     grid-area: historia-sarah;
+    background: rgba(5, 7, 12, 0.4);
+    margin-bottom: 30px;
+    border-radius: 10px;
   }
 
   #foto-isaac {
@@ -1197,6 +1228,9 @@ li .opciones {
     border: solid antiquewhite;
     grid-area: foto-isaac;
     border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 5px black;
+            box-shadow: 10px 10px 5px black;
+    margin-bottom: 20px;
   }
 
   .historia-isaac {
@@ -1209,7 +1243,8 @@ li .opciones {
     width: 300px;
     height: 300px;
     font-size: 15px;
-    font-weight: bolder;
+    font-weight: lighter;
+    padding: 20px;
     color: antiquewhite;
     font-family: "Roboto", sans-serif;
     -webkit-box-orient: vertical;
@@ -1218,6 +1253,8 @@ li .opciones {
             flex-direction: column;
     grid-area: historia-isaac;
     padding-top: 10px;
+    background: rgba(5, 7, 12, 0.4);
+    border-radius: 10px;
   }
 
   #footer-experiencia {
@@ -1252,7 +1289,7 @@ li .opciones {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    background-color: brown;
+    background-color: rgb(118, 79, 42);
     font-size: 25px;
   }
 
@@ -1299,7 +1336,7 @@ li .opciones {
 
   #footer-servicios {
     grid-area: footer-servicios;
-    background-color: brown;
+    background-color: rgb(118, 79, 42);
   }
 
   #section-servicios {
@@ -1329,7 +1366,7 @@ li .opciones {
     width: 300px;
     height: 300px;
     border-radius: 20%;
-    border: solid brown;
+    border: solid rgb(118, 79, 42);
   }
 
   #foto2 {
@@ -1337,7 +1374,7 @@ li .opciones {
     width: 300px;
     height: 300px;
     border-radius: 20%;
-    border: solid brown;
+    border: solid rgb(118, 79, 42);
   }
 
   #foto3 {
@@ -1345,7 +1382,7 @@ li .opciones {
     width: 300px;
     height: 300px;
     border-radius: 20%;
-    border: solid brown;
+    border: solid rgb(118, 79, 42);
   }
 
   #foto4 {
@@ -1353,36 +1390,60 @@ li .opciones {
     width: 300px;
     height: 300px;
     border-radius: 20%;
-    border: solid brown;
+    border: solid rgb(118, 79, 42);
   }
 
   #parrafo1 {
     background-blend-mode: soft-light;
     grid-area: parrafo1;
     font-size: 15px;
-    font-weight: bolder;
+    font-weight: lighter;
     margin-bottom: 50px;
+    background: rgba(5, 7, 12, 0.4);
+    border-radius: 5px;
+  }
+  #parrafo1:hover {
+    -webkit-box-shadow: 0 0 40px 10px inset antiquewhite;
+            box-shadow: 0 0 40px 10px inset antiquewhite;
   }
 
   #parrafo2 {
     grid-area: parrafo2;
     font-size: 15px;
-    font-weight: bolder;
+    font-weight: lighter;
     margin-bottom: 50px;
+    background: rgba(5, 7, 12, 0.4);
+    border-radius: 5px;
+  }
+  #parrafo2:hover {
+    -webkit-box-shadow: 0 0 40px 10px inset antiquewhite;
+            box-shadow: 0 0 40px 10px inset antiquewhite;
   }
 
   #parrafo3 {
     grid-area: parrafo3;
     font-size: 15px;
-    font-weight: bolder;
+    font-weight: lighter;
     margin-bottom: 50px;
+    background: rgba(5, 7, 12, 0.4);
+    border-radius: 5px;
+  }
+  #parrafo3:hover {
+    -webkit-box-shadow: 0 0 40px 10px inset antiquewhite;
+            box-shadow: 0 0 40px 10px inset antiquewhite;
   }
 
   #parrafo4 {
     grid-area: parrafo4;
     font-size: 15px;
-    font-weight: bolder;
+    font-weight: lighter;
     margin-bottom: 200px;
+    background: rgba(5, 7, 12, 0.4);
+    border-radius: 5px;
+  }
+  #parrafo4:hover {
+    -webkit-box-shadow: 0 0 40px 10px inset antiquewhite;
+            box-shadow: 0 0 40px 10px inset antiquewhite;
   }
 
   .bodyhistoria > #header-index {
@@ -1753,6 +1814,33 @@ li .opciones {
     background-color: rgb(118, 79, 42);
   }
 
+  #patrocinadores-servicios {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .credicoop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 30px;
+    color: antiquewhite;
+  }
+
   #section-servicios {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1835,7 +1923,8 @@ li .opciones {
     background-blend-mode: soft-light;
     grid-area: parrafo1;
     font-size: 15px;
-    font-weight: bolder;
+    font-weight: lighter;
+    background: rgba(5, 7, 12, 0.4);
   }
   #parrafo1:hover {
     -webkit-box-shadow: 0 0 40px 10px inset antiquewhite;
@@ -1846,7 +1935,8 @@ li .opciones {
   #parrafo2 {
     grid-area: parrafo2;
     font-size: 15px;
-    font-weight: bolder;
+    font-weight: lighter;
+    background: rgba(5, 7, 12, 0.4);
   }
   #parrafo2:hover {
     -webkit-box-shadow: 0 0 40px 10px inset antiquewhite;
@@ -1857,7 +1947,8 @@ li .opciones {
   #parrafo3 {
     grid-area: parrafo3;
     font-size: 15px;
-    font-weight: bolder;
+    font-weight: lighter;
+    background: rgba(5, 7, 12, 0.4);
   }
   #parrafo3:hover {
     -webkit-box-shadow: 0 0 40px 10px inset antiquewhite;
@@ -1868,12 +1959,32 @@ li .opciones {
   #parrafo4 {
     grid-area: parrafo4;
     font-size: 15px;
-    font-weight: bolder;
+    font-weight: lighter;
+    background: rgba(5, 7, 12, 0.4);
   }
   #parrafo4:hover {
     -webkit-box-shadow: 0 0 40px 10px inset antiquewhite;
             box-shadow: 0 0 40px 10px inset antiquewhite;
     border-radius: 5px;
+  }
+
+  .slide {
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .slide .img {
+    height: 20px;
+    width: 20px;
+  }
+
+  .carousel {
+    width: 400px;
+    width: 500px;
   }
 
   .historia-conteiner {
@@ -2106,12 +2217,12 @@ li .opciones {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    gap: 10px;
+    gap: 5px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 0.35fr 10px 0.35fr 10px 0.35fr;
+    -ms-grid-columns: 0.35fr 5px 0.35fr 5px 0.35fr;
     grid-template-columns: 0.35fr 0.35fr 0.35fr;
-    -ms-grid-rows: 0.2fr 10px 0.2fr 10px 0.2fr;
+    -ms-grid-rows: 0.2fr 5px 0.2fr 5px 0.2fr;
     grid-template-rows: 0.2fr 0.2fr 0.2fr;
         grid-template-areas: "foto-sarah foto-harold foto-isaac" "historia-sarah historia-harold historia-isaac";
   }
@@ -2143,7 +2254,7 @@ li .opciones {
     width: 300px;
     height: 450px;
     font-size: 15px;
-    font-weight: bolder;
+    font-weight: lighter;
     color: antiquewhite;
     font-family: "Roboto", sans-serif;
     -webkit-box-orient: vertical;
@@ -2153,6 +2264,8 @@ li .opciones {
     grid-area: historia-harold;
     background: rgba(5, 7, 12, 0.4);
     padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
   }
 
   #foto-sarah {
@@ -2180,9 +2293,9 @@ li .opciones {
         -ms-flex-pack: start;
             justify-content: start;
     width: 300px;
-    height: 300px;
+    height: 450px;
     font-size: 15px;
-    font-weight: bolder;
+    font-weight: lighter;
     color: antiquewhite;
     font-family: "Roboto", sans-serif;
     -webkit-box-orient: vertical;
@@ -2192,6 +2305,8 @@ li .opciones {
     grid-area: historia-sarah;
     background: rgba(5, 7, 12, 0.4);
     padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
   }
 
   #foto-isaac {
@@ -2217,11 +2332,11 @@ li .opciones {
     display: flex;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
-            justify-content: start;
+            justify-content: flex-start;
     width: 300px;
-    height: 300px;
+    height: 450px;
     font-size: 15px;
-    font-weight: bolder;
+    font-weight: lighter;
     color: antiquewhite;
     font-family: "Roboto", sans-serif;
     -webkit-box-orient: vertical;
@@ -2231,6 +2346,8 @@ li .opciones {
     grid-area: historia-isaac;
     background: rgba(5, 7, 12, 0.4);
     padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
   }
 
   #footer-experiencia {

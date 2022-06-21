@@ -357,10 +357,10 @@ li .opciones {
     background-blend-mode: soft-light;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 0.35fr;
-        grid-template-columns: 0.35fr;
-    -ms-grid-rows: 0.10fr 0.10fr 0.25fr 0.35fr auto;
-        grid-template-rows: 0.10fr 0.10fr 0.25fr 0.35fr auto;
+    -ms-grid-columns: 0.40fr;
+        grid-template-columns: 0.40fr;
+    -ms-grid-rows: 0.05fr 0.10fr 0.25fr 0.10fr 0.35fr auto;
+        grid-template-rows: 0.05fr 0.10fr 0.25fr 0.10fr 0.35fr auto;
         grid-template-areas: "header" "nav" "main" "section-titulo" "section"         "footer";
   }
   .relleno-conteiners {
@@ -382,8 +382,8 @@ li .opciones {
     font-size: 15px;
     font-weight: lighter;
     background: rgba(5, 7, 12, 0.4);
-    width: 70%;
-    height: 80vw;
+    width: auto;
+    height: auto;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
@@ -392,10 +392,10 @@ li .opciones {
             align-items: flex-start;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 0.4fr;
-        grid-template-columns: 0.4fr;
-    -ms-grid-rows: 0.15fr 0.15fr 0.15fr;
-        grid-template-rows: 0.15fr 0.15fr 0.15fr;
+    -ms-grid-columns: 0.35fr;
+        grid-template-columns: 0.35fr;
+    -ms-grid-rows: 0.15fr 0.15fr 0.25fr;
+        grid-template-rows: 0.15fr 0.15fr 0.25fr;
         grid-template-areas: "lorem1" "lorem2" "marco-index";
   }
   #lorem1 {
@@ -487,7 +487,8 @@ li .opciones {
         -ms-flex-direction: column;
             flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    position: absolute;
     -ms-flex-item-align: center;
         align-self: center;
   }
@@ -506,7 +507,6 @@ li .opciones {
         -ms-flex-pack: center;
             justify-content: center;
     width: 100%;
-    height: 100%;
     -ms-grid-row: 3;
     -ms-grid-column: 1;
     grid-area: marco-index;
@@ -930,7 +930,7 @@ li .opciones {
     -ms-grid-row: 5;
     -ms-grid-column: 1;
     grid-area: footer;
-    background-color: brown;
+    background-color: #764f2a;
     width: 100%;
     height: 100%;
   }
@@ -1701,6 +1701,31 @@ li .opciones {
     grid-area: footer-servicios;
     background-color: #764f2a;
   }
+  #patrocinadores-servicios {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .credicoop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 30px;
+    color: antiquewhite;
+  }
   #section-servicios {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1834,6 +1859,23 @@ li .opciones {
     -webkit-box-shadow: 0 0 40px 10px inset antiquewhite;
             box-shadow: 0 0 40px 10px inset antiquewhite;
     border-radius: 5px;
+  }
+  .slide {
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .slide .img {
+    height: 20px;
+    width: 20px;
+  }
+  .carousel {
+    width: 400px;
+    width: 500px;
   }
   .historia-conteiner {
     display: -webkit-box;
