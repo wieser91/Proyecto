@@ -90,7 +90,7 @@ footer{
                                 flex-wrap: wrap;
                                 color:antiquewhite;
                                 font-family:$fuente-roboto;
-                                font-size:20px ;
+                                font-size:25px ;
                                 font-weight:lighter;
                                 background: rgba(5,7,12,0.40);
                                 width: auto;
@@ -99,10 +99,10 @@ footer{
                                 align-items:flex-start;
                                 display:grid;
                                 grid-template-columns: 0.5fr;
-                                grid-template-rows: 0.15fr 0.15fr 0.5fr;
+                                grid-template-rows: 0.25fr 0.25fr 0.5fr;
                                 grid-template-areas: "lorem1"
                                                       "lorem2"
-                                                     "marco-index"
+                                                     "marco-index";
                   
                   
                                                      
@@ -132,17 +132,16 @@ footer{
            grid-area: nav;
            display:flex;
            flex-direction:column;
-           width: 100%;
-           height: 100%;
+        
        }
    
-       #ul-index{
+      /* #ul-index{
            display:flex;
            justify-content: space-evenly;
            flex-direction: column;
            width: 70%;
            align-items:center;
-       }
+       }*/
 
    
    
