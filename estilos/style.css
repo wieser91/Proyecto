@@ -377,9 +377,9 @@ li .opciones {
             flex-direction: column;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    color: white;
+    color: antiquewhite;
     font-family: "Roboto", sans-serif;
-    font-size: 25px;
+    font-size: 17px;
     font-weight: bolder;
     background: rgba(5, 7, 12, 0.4);
     width: auto;
@@ -821,8 +821,8 @@ li .opciones {
         -ms-flex-align: start;
             align-items: flex-start;
     font-size: 15px;
-    font-weight: lighter;
-    color: white;
+    font-weight: bolder;
+    color: antiquewhite;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     padding: 50px;
@@ -930,8 +930,6 @@ li .opciones {
     background-blend-mode: soft-light;
     background-color: rgba(50, 50, 50, 0.98);
     background-size: 100%;
-    width: 100%;
-    height: 100%;
     display: -ms-grid;
     display: grid;
     display: -webkit-box;
@@ -943,8 +941,8 @@ li .opciones {
             flex-direction: column;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    -ms-grid-rows: 0.15fr 0.15fr 0.25fr 0.3fr 100px;
-        grid-template-rows: 0.15fr 0.15fr 0.25fr 0.3fr 100px;
+    -ms-grid-rows: 0.15fr 0.15fr 0.25fr 0.3fr auto;
+        grid-template-rows: 0.15fr 0.15fr 0.25fr 0.3fr auto;
         grid-template-areas: "header" "nav" "section" "section2" "footer";
   }
   #header-experiencia {
@@ -988,8 +986,6 @@ li .opciones {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 100%;
-    height: 100%;
   }
   #ul-experiencia {
     display: -webkit-box;
