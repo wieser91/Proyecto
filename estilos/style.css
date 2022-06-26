@@ -392,10 +392,10 @@ li .opciones {
             align-items: flex-start;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 0.35fr;
-        grid-template-columns: 0.35fr;
-    -ms-grid-rows: 0.15fr 0.15fr 0.25fr;
-        grid-template-rows: 0.15fr 0.15fr 0.25fr;
+    -ms-grid-columns: 0.5fr;
+        grid-template-columns: 0.5fr;
+    -ms-grid-rows: 0.15fr 0.15fr 0.5fr;
+        grid-template-rows: 0.15fr 0.15fr 0.5fr;
         grid-template-areas: "lorem1" "lorem2" "marco-index";
   }
   #lorem1 {
