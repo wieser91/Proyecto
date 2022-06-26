@@ -339,11 +339,11 @@ li .opciones {
     width: 900px;
     height: 20vh;
     margin-top: 50px;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    -ms-flex-line-pack: left;
-        align-content: left;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
     -webkit-box-shadow: 10px 10px 10px black;
             box-shadow: 10px 10px 10px black;
   }
@@ -377,7 +377,7 @@ li .opciones {
             flex-direction: column;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    color: antiquewhite;
+    color: white;
     font-family: "Roboto", sans-serif;
     font-size: 25px;
     font-weight: lighter;

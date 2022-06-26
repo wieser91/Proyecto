@@ -54,8 +54,8 @@ footer{
             width: 900px;
             height:20vh;
             margin-top: 50px;
-            align-items:flex-start;
-            align-content: left;
+            align-items:center;
+            align-content: center;
             box-shadow: 10px 10px 10px black;
             }
 
@@ -88,7 +88,7 @@ footer{
                                 display:flex ;
                                 flex-direction:column;
                                 flex-wrap: wrap;
-                                color:antiquewhite;
+                                color:white;
                                 font-family:$fuente-roboto;
                                 font-size:25px ;
                                 font-weight:lighter;
