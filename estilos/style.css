@@ -1029,7 +1029,7 @@ li .opciones {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: auto;
+    width: 75%;
     font-size: 15px;
     font-weight: lighter;
     color: white;
