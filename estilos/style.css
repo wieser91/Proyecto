@@ -803,16 +803,16 @@ li .opciones {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding: 160px;
+    padding: 60px;
   }
-  .parrafos-historia {
+  .historia-conteiner .parrafos-historia {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 70%;
+    width: auto;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -821,10 +821,11 @@ li .opciones {
         -ms-flex-align: start;
             align-items: flex-start;
     font-size: 15px;
-    font-weight: bolder;
-    color: antiquewhite;
+    font-weight: lighter;
+    color: white;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    padding: 50px;
   }
   #marco-laptop {
     display: -webkit-box;
@@ -942,8 +943,8 @@ li .opciones {
             flex-direction: column;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    -ms-grid-rows: 0.15fr 0.15fr 0.25fr 0.3fr auto;
-        grid-template-rows: 0.15fr 0.15fr 0.25fr 0.3fr auto;
+    -ms-grid-rows: 0.15fr 0.15fr 0.25fr 0.3fr 100px;
+        grid-template-rows: 0.15fr 0.15fr 0.25fr 0.3fr 100px;
         grid-template-areas: "header" "nav" "section" "section2" "footer";
   }
   #header-experiencia {
@@ -1032,13 +1033,22 @@ li .opciones {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 50%;
+    width: auto;
     font-size: 15px;
     font-weight: lighter;
-    color: antiquewhite;
+    color: white;
     flex-direction: column;
     background: rgba(5, 7, 12, 0.4);
     padding: 50px;
+  }
+  #footer-experiencia {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    grid-area: footer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: brown;
   }
   #section-experiencia2 {
     -webkit-box-pack: center;
@@ -1199,15 +1209,6 @@ li .opciones {
     padding-top: 10px;
     background: rgba(5, 7, 12, 0.4);
     border-radius: 10px;
-  }
-  #footer-experiencia {
-    -ms-grid-row: 5;
-    -ms-grid-column: 1;
-    grid-area: footer;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    background-color: brown;
   }
   .bodyservicios {
     width: 100%;
@@ -1893,8 +1894,8 @@ li .opciones {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    font-size: 15px;
-    font-weight: bolder;
+    font-size: 17px;
+    font-weight: lighter;
     color: antiquewhite;
     background: rgba(5, 7, 12, 0.4);
     padding: 30px;
