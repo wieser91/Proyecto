@@ -72,14 +72,14 @@ footer{
        position: absolute;
        background-blend-mode: soft-light;
        display:grid;
-       grid-template-columns: 0.40fr;
-       grid-template-rows:0.05fr 0.10fr 0.25fr 0.10fr 0.35fr auto ;
+       grid-template-columns: 1fr;
+       grid-template-rows:100px 150px 0.5fr 0.5fr 100px auto ;
        grid-template-areas:     "header"
                                 "nav"
                                 "main"
                             "section-titulo"
                                 "section"        
-                                 "footer"
+                                 "footer";
                             }
                         
                             .relleno-conteiners{
@@ -90,7 +90,7 @@ footer{
                                 flex-wrap: wrap;
                                 color:antiquewhite;
                                 font-family:$fuente-roboto;
-                                font-size:15px ;
+                                font-size:20px ;
                                 font-weight:lighter;
                                 background: rgba(5,7,12,0.40);
                                 width: auto;
