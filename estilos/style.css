@@ -12,7 +12,7 @@
 header {
   background-color: #764f2a;
   padding: 20px;
-  width: 100vw;
+  width: auto;
   list-style: none;
   position: relative;
 }
@@ -379,7 +379,7 @@ li .opciones {
         flex-wrap: wrap;
     color: antiquewhite;
     font-family: "Roboto", sans-serif;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bolder;
     background: rgba(5, 7, 12, 0.4);
     width: auto;
