@@ -1,0 +1,235 @@
+@media(max-width:1023px){
+
+                                    .bodyservicios{
+
+                                        width: 100%;
+                                        height: 100%;
+                                        background-image: url("../multimedia/istockphoto-131914749-612x612.jpg") ;
+                                    background-attachment: fixed;
+                                    background-blend-mode :soft-light;
+                                    background-size:100%;
+                                    display:grid;
+                                    grid-template-columns: 1fr;
+                                    grid-template-rows: 100px 0.15fr 0.15fr auto;
+                                    grid-template-areas: "header-servicios"
+                                                          "nav-servicios"
+                                                          "section-servicios"
+                                                          "footer-servicios";
+                                    background-color: rgba(50,50,50,0.98);
+                                   
+                                    }
+                                
+                                    #header-servicios{
+                                        grid-area:header-servicios;
+                                        width:100%;
+                                        height: 100%;
+                                        display: flex;
+                                        background-color:rgb(118,79,42);
+                                        font-size: 25px;
+                            
+                         
+                                      
+                                        
+                                    }
+                                
+                         
+                                   #nav-servicios{
+                                       grid-area:nav-servicios;
+                                       width:100%;
+                                       align-items: center;
+                                       display:flex;
+                                       flex-direction: column;
+
+                                       }
+
+                                       #ul-servicios{
+                                           display: flex;
+                                           flex-direction:column ;
+
+                                       }
+                         
+                                       
+                             
+                                
+                         
+                                   #section-servicios{
+                                       grid-area:section-servicios;
+                                       display:flex;
+                                       flex-direction: column;
+                                       align-items: flex-start;
+                                       flex-wrap: wrap;
+                                      
+                                      
+                                       
+                         
+                                       }
+                         
+                                   #footer-servicios{
+                                       display: flex;
+                                       flex-direction: column;
+                                       grid-area: footer-servicios;
+                                       background-color: rgb(118,79,42);
+                                      align-items: center;
+                                       }
+                                       .credicoop{
+                                       
+                                        margin-top: 40px;
+                                        width:300px;
+                                        height: 20px;
+                                        color:white;
+                                        font-weight: bolder;
+                                        margin-left: 40px;
+
+                                       }
+                                       
+                                       
+                                   
+
+                                   #patrocinadores-servicios {
+                                    margin-top:10px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    width:350px;
+                                    height: 350px;
+                                   }
+                         
+                         
+
+                                  #section-servicios{
+                                     display: flex;
+                                     justify-content: center;
+                                     gap:20px;
+                                   color: white;
+                                     font-family:'Roboto', sans-serif ;
+                                      font-size: 25px;
+                                     height: 100%; 
+                                     width: 100%;
+                                    display:grid;
+                                    grid-template-columns:0.15fr 0.15fr 0.15fr 0.15fr;
+                                    grid-template-rows: 0.15fr 0.15fr 0.15fr 0.15fr;
+                                    grid-template-areas:   "foto1"  
+                                                          "parrafo1"
+                                                           "foto2"
+                                                          "parrafo2"
+                                                           "foto3"
+                                                          "parrafo3"
+                                                           "foto4"
+                                                          "parrafo4";
+                                    
+                                       
+                                                         
+
+
+
+
+                                  }
+
+
+
+
+
+
+
+                          
+                                  #foto1{
+                                      grid-area: foto1;
+                                      width:300px;
+                                      height: 300px;
+                                      border-radius: 20%;
+                                      border:solid rgb(118,79,42);
+                                  }
+                                  
+                                  #foto2{
+                                      grid-area:foto2;
+                                      width:300px;
+                                      height:300px;
+                                      border-radius:20%;
+                                      border:solid rgb(118,79,42);
+                                  }
+                         
+                                  #foto3{
+                                      grid-area:foto3;
+                                      width:300px;
+                                      height:300px;
+                                      border-radius:20%;
+                                      border:solid rgb(118,79,42);
+                                  }
+                                  
+                                  #foto4{
+                                      grid-area:foto4;
+                                      width:300px;
+                                      height: 300px;
+                                      border-radius:20%;
+                                      border:solid rgb(118,79,42);
+                                  }
+                          #parrafo1{
+                             background-blend-mode :soft-light;
+                             grid-area:parrafo1;
+                             font-size: 15px;
+                             font-weight:bolder;
+                             margin-bottom:50px;
+                             background: rgba(5,7,12,0.40);
+                             border-radius: 5px;
+                             &:hover{
+                                    box-shadow:0 0 40px 10px inset antiquewhite;
+                             
+                             }
+                          }
+                         
+                          #parrafo2{
+                              grid-area:parrafo2;
+                               font-size:15px ;
+                         font-weight: bolder;
+                         margin-bottom:50px;
+                         background: rgba(5,7,12,0.40);
+                         border-radius:5px;
+                         &:hover{
+                            box-shadow:0 0 40px 10px inset antiquewhite;
+                     
+                     }
+                         
+                         }
+                          #parrafo3{
+                              grid-area:parrafo3;
+                              font-size: 15px;
+                              font-weight: bolder;
+                              margin-bottom:50px;
+                              background: rgba(5,7,12,0.40);
+                              border-radius:5px;
+                              &:hover{
+                                box-shadow:0 0 40px 10px inset antiquewhite;
+                         
+                         }
+                          }
+                         
+                          #parrafo4{
+                              grid-area:parrafo4;
+                              font-size: 15px;
+                              font-weight: bolder;
+                              margin-bottom: 200px;
+                              background: rgba(5,7,12,0.40);
+                              border-radius:5px;
+                              &:hover{
+                                box-shadow:0 0 40px 10px inset antiquewhite;
+                         
+                         }
+                          }
+                         
+                         
+
+            
+                         
+
+
+
+
+
+
+                         
+                         
+                         
+            
+                        
+                            }
+     
+        
