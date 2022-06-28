@@ -371,7 +371,6 @@ width:100%;
 
 @media (max-width: 1023px) {
   header {
-    background-color: brown;
     padding: 20px;
     list-style: none;
     width: 100%;
@@ -511,6 +510,7 @@ width:100%;
     display: flex;
     background-color: brown;
     font-size: 25px;
+    width: 0.1fr;
   }
   #navegador-index {
     -ms-grid-row: 2;
@@ -523,6 +523,7 @@ width:100%;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    width: 0.1fr;
   }
   /* #ul-index{
            display:flex;
@@ -980,6 +981,11 @@ width:100%;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  #planilla-formulario {
+    width: 70%;
+    margin-left: 100px;
+    margin-top: 150px;
   }
   #fabian-contacto {
     -ms-grid-row: 5;
@@ -1476,8 +1482,8 @@ width:100%;
     gap: 5px;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    -ms-grid-columns: 0.8fr;
+        grid-template-columns: 0.8fr;
     -ms-grid-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr  auto;
         grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr  auto;
         grid-template-areas: "foto-harold" "historia-harold" "foto-sarah"  "historia-sarah" "foto-isaac" "historia-isaac";
@@ -2142,8 +2148,8 @@ width:100%;
     display: grid;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    -ms-grid-rows: 100px 0.15fr 0.15fr auto;
-        grid-template-rows: 100px 0.15fr 0.15fr auto;
+    -ms-grid-rows: 0.2fr 0.15fr 0.15fr auto;
+        grid-template-rows: 0.2fr 0.15fr 0.15fr auto;
         grid-template-areas: "header-servicios" "nav-servicios" "section-servicios" "footer-servicios";
     background-color: rgba(50, 50, 50, 0.98);
   }

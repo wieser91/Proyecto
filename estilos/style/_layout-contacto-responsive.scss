@@ -98,8 +98,20 @@ grid-template-areas:  "header-contacto"
                          grid-area:formulario-contacto;
                          display:flex;
                          justify-content:center;
-                         
+
+                        
                      }
+
+                     #planilla-formulario{
+                        width:70%;
+                        margin-left: 100px;
+                        margin-top: 150px;
+                        
+                        }
+                     
+
+
+
 
                      #fabian-contacto{
                          grid-area:fabian-contacto;
