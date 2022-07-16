@@ -909,7 +909,6 @@ width:100%;
   }
   #header-experiencia {
     grid-area: header;
-    width: 100%;
   }
   #opciones-experiencia {
     display: flex;
@@ -932,8 +931,8 @@ width:100%;
     font-family: "Roboto", sans-serif;
     justify-content: flex-start;
     align-items: center;
-    padding-bottom: 10%;
-    padding-top: 10%;
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
   .relleno-experiencia {
     justify-content: end;
@@ -953,11 +952,19 @@ width:100%;
     grid-area: footer-experiencia;
     display: flex;
     background-color: rgb(118, 79, 42);
-    width: 100%;
+    width: auto;
+    justify-content: center;
+  }
+  #footer-experiencia #consejo-economicas {
+    margin-top: 50px;
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
   }
   #section-experiencia2 {
+    width: auto;
     justify-content: center;
-    margin-left: 100px;
+    margin-left: 50px;
     grid-area: section2;
     flex-direction: column;
     align-items: center;
@@ -1048,12 +1055,6 @@ width:100%;
     padding-top: 10px;
     background: rgba(5, 7, 12, 0.4);
     border-radius: 10px;
-  }
-  #consejo-economicas {
-    margin-top: 50px;
-    width: 300px;
-    height: 200px;
-    border-radius: 15px;
   }
 }
 @media (min-width: 1024px) {
