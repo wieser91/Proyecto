@@ -6,21 +6,24 @@
        background-blend-mode: soft-light;
        background-color: rgba(50,50,50,0.98);
        background-size: 100%;
-      
        display: grid;
-       display:flex;
        flex-direction: column;
        grid-template-columns: 1fr;
        grid-template-rows: 0.15fr 0.15fr 0.25fr 0.3fr auto;
-       grid-template-areas: "header"
+       grid-template-areas:
+                           "header"
                              "nav"
-                             "section"
+                            "section"
                             "section2"
-                            "footer";
+                            "footer-experiencia"
                             
        
    }
    
+   #header-experiencia{
+    grid-area: header;
+    width: 100%;
+   }
                       
                          #opciones-experiencia{
                              display:flex;
@@ -31,7 +34,7 @@
                          }
                        
                          #navegador-experiencia{
-                            grid-area:nav;
+                            grid-area: nav;
                             display:flex;
                             flex-direction:column;
                            
@@ -46,13 +49,12 @@
    
    
                        #section-experiencia{
-   
+                           grid-area: section;
                            display:flex;
                            flex-direction: column;
                            font-family:'Roboto', sans-serif;
                            justify-content:flex-start;
                            align-items:center;
-                           grid-area: section;
                            padding-bottom:10% ;
                            padding-top:10%;
    
@@ -62,7 +64,8 @@
                               justify-items:center;
                                display:flex;
                                flex-direction: column;
-                               width:75%;
+                               width:auto;
+                               border-radius: 15px;
                                font-size:15px;
                                font-weight: lighter;
                                color:white;
@@ -74,9 +77,11 @@
                            }
 
                            #footer-experiencia{
-                            grid-area:footer;
+                            grid-area: footer-experiencia;
                             display:flex;
-                            background-color: brown;
+                            background-color: rgba(118,79,42);
+                            width:100%;
+                         
                         }
 
 
@@ -87,14 +92,11 @@
                             justify-content: center;
                             margin-left:100px;
                              grid-area:section2;
-                            display:flex;
                              flex-direction:column;
-                             height: 100%;
-                    
                              align-items:center;
                              gap:5px;
                              display:grid; 
-                             grid-template-columns: 0.8fr;
+                             grid-template-columns: 1fr;
                              grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr  auto;
                              grid-template-areas:"foto-harold"
                                                 "historia-harold"
@@ -102,6 +104,7 @@
                                                  "historia-sarah"
                                                   "foto-isaac"
                                                  "historia-isaac";  
+                            margin-bottom: 50px;
                                            }
                    
                                     #foto-harold{
@@ -202,7 +205,16 @@
             
                                                     }
                                      
-            
+                                                    #consejo-economicas{
+
+                                                        margin-top:50px;
+                                                        width:300px;
+                                                        height: 200px;
+                                                        border-radius:15px;
+                            
+                                                    }
+
+
                                    
                                      
                                      } 
