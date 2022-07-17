@@ -11,29 +11,34 @@
 
 header {
   background-color: rgb(118, 79, 42);
-  width: auto;
   list-style: none;
   padding: 20px;
-  width: auto;
 }
 
-.flexconteiner {
-  display: flex;
-  justify-content: space-evenly;
-}
+/*.flexconteiner{
+   display:flex;
+   justify-content: space-evenly;
 
-li {
-  display: inline-block;
-}
-li .opciones {
-  color: antiquewhite;
-  font-weight: bolder;
-  font-family: "Roboto", sans-serif;
-  text-decoration: none;
-  font-size: 25px;
-  width: 100vw;
-}
 
+
+   }*/
+/*li{
+    display:inline-block;
+
+
+
+        .opciones{
+
+         color:antiquewhite;
+        font-weight:bolder;
+        font-family:$fuente-roboto;
+        text-decoration: none;
+            font-size: 25px; 
+            width: 100vw;
+
+            }
+
+}*/
 @media (min-width: 1024px) {
   #principal1 {
     width: 100%;
@@ -194,14 +199,15 @@ li .opciones {
   }
 }
 @media (max-width: 1023px) {
-  .opciones {
-    color: antiquewhite;
-    font-weight: bolder;
-    font-family: "Roboto", sans-serif;
-    text-decoration: none;
-    display: flex;
-    justify-content: space-evenly;
-  }
+  /*  .opciones{
+   color:antiquewhite;
+   font-weight:bolder;
+   font-family: $fuente-roboto;
+   text-decoration: none;
+       display: flex;
+       justify-content: space-evenly;
+
+       }*/
   .tituloconteiner {
     display: flex;
     font-size: 30px;
@@ -331,35 +337,6 @@ li .opciones {
   .tituloconteiner {
     margin-bottom: 50px;
   }
-  /*.pie1{
-      align-items: center;
-      font-family:$fuente-roboto;
-      font-weight: bolder;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      color:white;
-      font-size: 20px;
-      text-decoration: none;
-      margin:20px 10px;
-      width:300px;
-      height: 50px;
-      border-radius: 10px;
-      border:solid grey 5px;
-      background-color: transparent;
-      cursor:pointer;
-      margin-left:250px;
-      box-shadow: 10px 10px 10px black;
-      color:antiquewhite;
-
-
-      &:hover{
-         box-shadow:0 0 40px 10px inset antiquewhite;
-         color:black;
-      }
-
-  }*/
 }
 @media (min-width: 1024px) {
   .colorform {
@@ -784,28 +761,27 @@ li .opciones {
 }
 @media (max-width: 1023px) {
   #body-experiencia {
-    width: 100% auto;
+    width: 100%;
     background-image: url("../imagenes/depositphotos_418026222-stock-photo-ancient-statue-antique-god-commerce.jpg");
     background-attachment: fixed;
     background-blend-mode: soft-light;
     background-color: rgba(50, 50, 50, 0.98);
     background-size: 100%;
     display: grid;
-    display: flex;
-    flex-direction: column;
     grid-template-columns: 1fr;
     grid-template-rows: 0.15fr 0.15fr 0.25fr 0.3fr auto;
     grid-template-areas: "header" "nav" "section" "section2" "footer-experiencia";
   }
   #header-experiencia {
     grid-area: header;
-    width: 100vw;
   }
-  #opciones-experiencia {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  /*#opciones-experiencia{
+      display:flex;
+      flex-direction: column;
+    align-items:center;
+
+
+  }*/
   #navegador-experiencia {
     grid-area: nav;
     display: flex;
@@ -844,31 +820,30 @@ li .opciones {
     display: flex;
     background-color: rgb(118, 79, 42);
     justify-content: center;
-    width: 100vw;
   }
-  /*#consejo-economicas{
-      margin-top:50px;
-      margin:10px auto;
-      width: 100%;
-  }*/
+  #consejo-economicas {
+    margin-top: 50px;
+    margin: 10px auto;
+    width: 100%;
+  }
   #section-experiencia2 {
     width: 90%;
     justify-content: center;
-    margin-left: 30px;
+    margin-left: 10px;
     grid-area: section2;
     flex-direction: column;
     align-items: center;
     gap: 5px;
     display: grid;
     display: flex;
-    grid-template-columns: 0.7fr;
-    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.6fr 0.6fr 0.6fr 0.6fr 0.6fr auto;
     grid-template-areas: "foto-harold" "historia-harold" "foto-sarah" "historia-sarah" "foto-isaac" "historia-isaac";
     margin-bottom: 50px;
   }
   #foto-harold {
-    width: 190px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     border: solid grey;
@@ -881,8 +856,8 @@ li .opciones {
     display: flex;
     justify-content: start;
     padding: 20px;
-    width: 190px;
-    height: 700px;
+    width: 250px;
+    height: 500px;
     font-size: 15px;
     font-weight: lighter;
     color: antiquewhite;
@@ -894,8 +869,8 @@ li .opciones {
     border-radius: 10px;
   }
   #foto-sarah {
-    width: 190px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     border: solid antiquewhite;
@@ -907,8 +882,8 @@ li .opciones {
   .historia-sarah {
     display: flex;
     justify-content: start;
-    width: 190px;
-    height: 500px;
+    width: 250px;
+    height: 300px;
     padding: 20px;
     font-size: 15px;
     font-weight: lighter;
@@ -921,8 +896,8 @@ li .opciones {
     border-radius: 10px;
   }
   #foto-isaac {
-    width: 190px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     border: solid antiquewhite;
@@ -934,8 +909,8 @@ li .opciones {
   .historia-isaac {
     display: flex;
     justify-content: start;
-    width: 190px;
-    height: 500px;
+    width: 250px;
+    height: 350px;
     font-size: 15px;
     font-weight: lighter;
     padding: 20px;
