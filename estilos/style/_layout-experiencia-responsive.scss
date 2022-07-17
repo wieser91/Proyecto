@@ -1,7 +1,7 @@
 @media(max-width:1023px){
   
   #body-experiencia{
-       width:100%;
+       width:1fr;
        background-image: url("../imagenes/depositphotos_418026222-stock-photo-ancient-statue-antique-god-commerce.jpg");
        background-attachment: fixed;
        background-blend-mode: soft-light;
@@ -23,6 +23,7 @@
    
    #header-experiencia{
     grid-area: header;
+    width: 100%;
     
    }
                       
@@ -65,14 +66,14 @@
                               justify-items:center;
                                display:flex;
                                flex-direction: column;
-                               width:100%;
+                               width:75%;
                                border-radius: 15px;
                                font-size:15px;
                                font-weight: lighter;
                                color:white;
                                flex-direction: column;
                                background: rgba(5,7,12,0.40);
-                               padding:50px;
+                               padding:10px;
                            
    
                            }
@@ -82,6 +83,7 @@
                             display:flex;
                             background-color: rgba(118,79,42);
                             justify-content: center;
+                            width:100%;
                             
                             }
                             
