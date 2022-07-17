@@ -2,24 +2,6 @@
 
 
    
-    
-
-       
-
-    
-
-    
-    
-      /*  .opciones{
-       color:antiquewhite;
-       font-weight:bolder;
-       font-family: $fuente-roboto;
-       text-decoration: none;
-           display: flex;
-           justify-content: space-evenly;
-   
-           }*/
-   
            .tituloconteiner{
                display:flex;      
                font-size: 30px;
@@ -60,9 +42,9 @@
        background-blend-mode: soft-light;
        display:grid;
        grid-template-columns: 1fr;
-       grid-template-rows:0.2fr 0.2fr 0.2fr 0.2fr auto;
+       grid-template-rows:0.2fr 0.2fr 0.2fr auto;
        grid-template-areas:     "header"
-                                "nav"
+                                
                                 "main"
                                 "section" 
                                  "footer";
@@ -76,13 +58,13 @@
                                                    }
 
 
-                                                   #navegador-index{
+                                                   /*#navegador-index{
                                                     grid-area: nav;
                                                     display:flex;
                                                     flex-direction:column;
                                                   
                                                  
-                                                }
+                                                }*/
 
 
 

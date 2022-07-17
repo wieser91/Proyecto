@@ -9,10 +9,10 @@
        background-size: 100%;
        display: grid;
        grid-template-columns: 1fr;
-       grid-template-rows: 0.15fr 0.15fr 0.25fr 0.3fr auto;
+       grid-template-rows: 0.15fr 0.25fr 0.3fr auto;
        grid-template-areas:
                            "header"
-                             "nav"
+                             
                             "section"
                             "section2"
                             "footer-experiencia"
@@ -27,25 +27,20 @@
     
    }
                       
-                         /*#opciones-experiencia{
-                             display:flex;
-                             flex-direction: column;
-                           align-items:center;
-                             
-
-                         }*/
-                       
-                         #navegador-experiencia{
+                      
+                         /*#navegador-experiencia{
                             grid-area: nav;
                             display:flex;
                             flex-direction:column;
+                            width: 100%;
+                           
                            
 
-                       }
-                       #ul-experiencia{
+                       }*/
+                    /*#ul-experiencia{
                            display:flex;
                            flex-direction: column;
-                       }
+                       }*/
    
    
    
@@ -84,6 +79,7 @@
                             display:flex;
                             background-color: rgba(118,79,42);
                             justify-content: center;
+                            width: 100%;
                        
                             
                             }
