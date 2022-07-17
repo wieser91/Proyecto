@@ -808,6 +808,7 @@ header {
   #footer-experiencia {
     grid-area: footer-experiencia;
     display: flex;
+    flex-direction: column;
     background-color: rgb(118, 79, 42);
     justify-content: center;
     width: 100%;
