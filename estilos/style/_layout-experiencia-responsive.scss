@@ -1,6 +1,7 @@
 @media(max-width:1023px){
   
   #body-experiencia{
+       width:100%;
        background-image: url("../imagenes/depositphotos_418026222-stock-photo-ancient-statue-antique-god-commerce.jpg");
        background-attachment: fixed;
        background-blend-mode: soft-light;
@@ -81,13 +82,14 @@
                             display:flex;
                             background-color: rgba(118,79,42);
                             justify-content: center;
-                            width: auto;
+                            
+                            }
                             
                             #consejo-economicas{
                                 margin-top:50px;
                             }
                            
-                           }
+                           
                         
                        
 
@@ -105,7 +107,7 @@
                              align-items:center;
                              gap:5px;
                              display:grid; 
-                             grid-template-columns: 1fr;
+                             grid-template-columns: 0.8fr;
                              grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr  auto;
                              grid-template-areas:"foto-harold"
                                                 "historia-harold"
