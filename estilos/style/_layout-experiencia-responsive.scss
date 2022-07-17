@@ -11,8 +11,8 @@
        grid-template-columns: 1fr;
        grid-template-rows: 0.25fr 0.25fr 0.3fr auto;
        grid-template-areas:
-                           
-                             "header"
+                           "header"
+                         
                            "section"
                            "section2"
                             "footer-experiencia";
@@ -20,16 +20,16 @@
        
    }
    
-   /*#header-experiencia{
+   #header-experiencia{
     grid-area: header;
-   
+   width: 100%;
    
    
     
-   }*/
+   }
                       
                       
-                         /*#navegador-experiencia{
+                         #navegador-experiencia{
                             grid-area: nav;
                             display:flex;
                             flex-direction:column;
@@ -37,11 +37,11 @@
                            
                            
 
-                       }*/
-                    /*#ul-experiencia{
+                       }
+                    #ul-experiencia{
                            display:flex;
                            flex-direction: column;
-                       }*/
+                       }
    
    
    

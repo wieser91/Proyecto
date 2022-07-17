@@ -767,26 +767,20 @@ header {
     grid-template-rows: 0.25fr 0.25fr 0.3fr auto;
     grid-template-areas: "header" "section" "section2" "footer-experiencia";
   }
-  /*#header-experiencia{
-   grid-area: header;
-
-
-
-
-  }*/
-  /*#navegador-experiencia{
-       grid-area: nav;
-       display:flex;
-       flex-direction:column;
-       width: 100%;
-
-
-
-  }*/
-  /*#ul-experiencia{
-         display:flex;
-         flex-direction: column;
-     }*/
+  #header-experiencia {
+    grid-area: header;
+    width: 100%;
+  }
+  #navegador-experiencia {
+    grid-area: nav;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  #ul-experiencia {
+    display: flex;
+    flex-direction: column;
+  }
   #section-experiencia {
     grid-area: section;
     display: flex;
