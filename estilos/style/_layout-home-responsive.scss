@@ -2,15 +2,8 @@
 
 
    
-       header{
-
-       padding: 20px;
-       list-style:none;
-       width:100%;
-       background-color: rgb(118,79,42);
-       }
-   
-       .flexconteiner{
+    
+      /* .flexconteiner{
            display:flex;
            justify-content: space-evenly;
             }
@@ -19,11 +12,11 @@
          li{
        display:inline-block;
        
-           }
+           }*/
        
-footer{
+/*footer{
     width:100vw;
-}
+}*/
     
         .opciones{
        color:antiquewhite;
@@ -41,17 +34,19 @@ footer{
                flex-direction: column;
                align-items:flex-end;
                box-shadow: 10px 10px 10px black;
+               grid-area:section-titulo;
    
            }
          
            .mayuscula{
+            display: flex;
             flex-direction:column;
             font-family:$fuente-roboto;
             font-weight: bolder;
             padding:50px;
             justify-content: center;
             color:antiquewhite;
-            width: 900px;
+            width: 500px;
             height:20vh;
             margin-top: 50px;
             align-items:center;
@@ -64,12 +59,12 @@ footer{
     
      
    #principal1{
-       width:100%;
+       width: 100%;
        background-image: url("../imagenes/istockphoto-1131318494-612x612.jpg");
        background-size:100% 100% ;
        background-color: rgba(50,50,50,0.75);
        background-attachment: fixed;
-       position: absolute;
+       position:absolute;
        background-blend-mode: soft-light;
        display:grid;
        grid-template-columns: 1fr;
@@ -78,13 +73,107 @@ footer{
                                 "nav"
                                 "main"
                             "section-titulo"
-                                "section"        
-                                 "footer";
-                            }
+                                "section"  
+                                "footer";
+ 
+                                                }
+
+
+                                                #header-index{
+                                                    grid-area: header;
+                                                
+                                                   }
+
+
+                                                   #navegador-index{
+                                                    grid-area: nav;
+                                                    display:flex;
+                                                    flex-direction:column;
+                                                  
+                                                 
+                                                }
+
+
+
+                                                #main-index{
+                                                    grid-area:main;
+                                                    display:flex;
+                                                    flex-direction:column;
+                                                    align-items: center;
+                                                
+
+                                                }
+
+
+
+
+
+
+
+                                .tituloconteiner{
+                                    grid-area:section-titulo;
+                                    display:flex;      
+                                    font-size: 30px;
+                                    flex-direction: column;
+                                    align-items:flex-end;
+                                    box-shadow: 10px 10px 10px black;
+                                    
+                                }
+                              
+
+                                #section-index{
+                                    grid-area:section;
+                                    display:flex;
+                                    align-items:  center;
+                                }
+
+
+
+                                #footer-index{
+                                    grid-area:footer;
+                                    background-color:rgb(118,79,42);
+                                    display: flex;
+                                    flex-direction: column;
+                                    width: 100%;
+                            
+                                    position: absolute;
+                                    align-self: center;
+                                 }
+
+
+
+
+
+                                .mayuscula{
+                                 display: flex;
+                                 flex-direction:column;
+                                 font-family:$fuente-roboto;
+                                 font-weight: bolder;
+                                 padding:50px;
+                                 justify-content: center;
+                                 color:antiquewhite;
+                                 width: 500px;
+                                 height:20vh;
+                                 margin-top: 50px;
+                                 align-items:center;
+                                 align-content: center;
+                                 box-shadow: 10px 10px 10px black;
+                                 }
+                                    
                         
+
+
+
+
+
+
+
+
+
                             .relleno-conteiners{
+                                display: flex;
                                 border-radius: 10px;
-                                align-items: center;
+                                align-items:center;
                                 flex-direction:column;
                                 flex-wrap: wrap;
                                 color:antiquewhite;
@@ -92,16 +181,18 @@ footer{
                                 font-size:15px ;
                                 font-weight:bolder;
                                 background: rgba(5,7,12,0.40);
-                                width: auto;
-                                height: auto;
+                                width: 400px;
+                                height: 1200px;
+                                margin:20px auto;
                                 justify-content:space-evenly;
                                 align-items:flex-start;
-                                display:grid;
+                                display: grid;
                                 grid-template-columns: 0.5fr;
                                 grid-template-rows: 0.25fr 0.25fr 0.5fr;
                                 grid-template-areas: "lorem1"
                                                       "lorem2"
-                                                     "marco-index";
+                                                     "foto-index";
+                                                      
                   
                   
                                                      
@@ -114,92 +205,43 @@ footer{
                                 grid-area:lorem2;
                             }
 
-
-
-       #header-index{
-        grid-area:header;
-           display:flex;
-           background-color: $fondo-marron;
-           font-size: 25px;
-           width:0.1fr;
-
-           
+   
+   
        
-       }
    
+      
    
-       #navegador-index{
-           grid-area: nav;
-           display:flex;
-           flex-direction:column;
-           width: 0.1fr;
-        
-       }
-   
-      /* #ul-index{
-           display:flex;
-           justify-content: space-evenly;
-           flex-direction: column;
-           width: 70%;
-           align-items:center;
-       }*/
-
-   
-   
-       #main-index{
-           grid-area:main;
-           display:flex;
-           flex-wrap: wrap;
-         
-       }
-   
-       #section-index{
-           grid-area:section;
-           display:flex;
-           justify-content: center;
-       }
-
-       #section-titulo{
-        grid-area:section-titulo;
-       }
-       #footer-index{
-           grid-area:footer;
-           background-color:rgb(118,79,42);
-           display: flex;
-           flex-direction: column;
-           width: 100%;
-           height: 100vh;
-           position: absolute;
-           align-self: center;
-        }
 
        
    
-   #marco-index{
+
+      
+      
+
+       
+   
+   /*#marco-index{
        display:flex;
-       flex-direction: row;
+       flex-direction: column;
        align-items: center;
-       justify-content: center;
-        width: 100%;
-       
-        grid-area:marco-index;
-    }
+       grid-area:marco-index;
+    }*/
     
   
   
        #foto-index{
-        display: flex;
-        width: 500px;
-        height: 500px;
-        align-content:center;
-        justify-self:flex-start;
+        grid-area:foto-index;
+        width: 450px;
+        height: 450px;
+        align-items:center;
         margin-top: 150px;
         border-radius: 10px;
         border:solid antiquewhite;
         margin-bottom: 200px;
-        justify-content: left;
-        grid-area:foto-index;
+    
+       
         box-shadow: 10px 10px 10px black;
+
        }
    
 .tituloconteiner{
@@ -208,7 +250,7 @@ footer{
 
   
     
-   .pie1{
+   /*.pie1{
     align-items: center;
     font-family:$fuente-roboto;
     font-weight: bolder;
@@ -220,7 +262,7 @@ footer{
     font-size: 20px;
     text-decoration: none;
     margin:20px 10px;
-    width:400px;
+    width:300px;
     height: 50px;
     border-radius: 10px;
     border:solid grey 5px;
@@ -236,13 +278,8 @@ footer{
        color:black;
     }
 
-}
-
-  /* .pie1{
-    color:blanchedalmond;
-    font-family:'Bree Serif', serif ;
-    font-size: 15px;
 }*/
+
 
 
 

@@ -11,10 +11,10 @@
 
 header {
   background-color: rgb(118, 79, 42);
-  width: 100%;
+  width: auto;
   list-style: none;
   padding: 20px;
-  position: relative;
+  width: auto;
 }
 
 .flexconteiner {
@@ -34,100 +34,6 @@ li .opciones {
   width: 100vw;
 }
 
-/*.historia-conteiner{
-
-  display:flex;
-  font-family:'Roboto', sans-serif;
-  height: 100vh;
-  justify-content: center;
-  margin-top:80px;
-
-
-
-     .parrafos-historia{
-
-  justify-content:flex-start;
-  display:flex;
-  width:60%;
-  height:55vh ;
-  flex-direction: column;
-  align-items: flex-start;
-  font-size:17px;
-  font-weight: lighter;
-  color:antiquewhite;
-  background: rgba(5,7,12,0.40);
-  padding:30px;
-  border-radius:10px;
-
-
-}
-}
-
-#marco-laptop{
-
-  display:flex;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-  padding-top: 80px;
-}
-
-#imagen-laptop{
-  width:500px;
-  height: 400px;
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  border-radius:10px ;
-  border:solid gray;
-  box-shadow: 10px 10px 10px rgb(172, 126, 42);
-}
-
-.bodyhistoria{
-  width:100%;
-background-image:url("../imagenes/ef38981cf3118cbceaa563891a2aabfd--percy-jackson-hermes.jpg");
-background-size:100% 100% ;
-  background-attachment: fixed;
-  background-blend-mode: soft-light;
-  background-color: rgba(50,50,50,0.98);
-  display:grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.15fr 0.15fr 0.15fr auto;
-  grid-template-areas: "header"
-                        "nav"
-                        "section"
-                        "footer"
-
-                      } 
-
-#header-historia{
-  grid-area: header;
-  width:100%;
-  display: flex;
-  align-items: center;
- }
-
-#nav-historia{
-  grid-area:nav;
-  width: 100%;
-}
-
-#section-historia{
-  grid-area: section;
-}
-
-#footer-historia{
-  grid-area:footer;
-  background-color:rgb(118,79,42);
-}
-
-#ul-historia{
-display:flex;
-flex-direction: row;
-justify-content: space-evenly;
-width:100%;
-*/
 @media (min-width: 1024px) {
   #principal1 {
     width: 100%;
@@ -288,22 +194,19 @@ width:100%;
   }
 }
 @media (max-width: 1023px) {
-  header {
-    padding: 20px;
-    list-style: none;
-    width: 100%;
-    background-color: rgb(118, 79, 42);
-  }
-  .flexconteiner {
-    display: flex;
-    justify-content: space-evenly;
-  }
-  li {
-    display: inline-block;
-  }
-  footer {
-    width: 100vw;
-  }
+  /* .flexconteiner{
+       display:flex;
+       justify-content: space-evenly;
+        }
+
+
+     li{
+   display:inline-block;
+
+       }*/
+  /*footer{
+      width:100vw;
+  }*/
   .opciones {
     color: antiquewhite;
     font-weight: bolder;
@@ -318,15 +221,17 @@ width:100%;
     flex-direction: column;
     align-items: flex-end;
     box-shadow: 10px 10px 10px black;
+    grid-area: section-titulo;
   }
   .mayuscula {
+    display: flex;
     flex-direction: column;
     font-family: "Roboto", sans-serif;
     font-weight: bolder;
     padding: 50px;
     justify-content: center;
     color: antiquewhite;
-    width: 900px;
+    width: 500px;
     height: 20vh;
     margin-top: 50px;
     align-items: center;
@@ -346,7 +251,59 @@ width:100%;
     grid-template-rows: 100px 150px 0.5fr 0.5fr 100px auto;
     grid-template-areas: "header" "nav" "main" "section-titulo" "section" "footer";
   }
+  #header-index {
+    grid-area: header;
+  }
+  #navegador-index {
+    grid-area: nav;
+    display: flex;
+    flex-direction: column;
+  }
+  #main-index {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tituloconteiner {
+    grid-area: section-titulo;
+    display: flex;
+    font-size: 30px;
+    flex-direction: column;
+    align-items: flex-end;
+    box-shadow: 10px 10px 10px black;
+  }
+  #section-index {
+    grid-area: section;
+    display: flex;
+    align-items: center;
+  }
+  #footer-index {
+    grid-area: footer;
+    background-color: rgb(118, 79, 42);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    align-self: center;
+  }
+  .mayuscula {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    padding: 50px;
+    justify-content: center;
+    color: antiquewhite;
+    width: 500px;
+    height: 20vh;
+    margin-top: 50px;
+    align-items: center;
+    align-content: center;
+    box-shadow: 10px 10px 10px black;
+  }
   .relleno-conteiners {
+    display: flex;
     border-radius: 10px;
     align-items: center;
     flex-direction: column;
@@ -356,14 +313,15 @@ width:100%;
     font-size: 15px;
     font-weight: bolder;
     background: rgba(5, 7, 12, 0.4);
-    width: auto;
-    height: auto;
+    width: 400px;
+    height: 1200px;
+    margin: 20px auto;
     justify-content: space-evenly;
     align-items: flex-start;
     display: grid;
     grid-template-columns: 0.5fr;
     grid-template-rows: 0.25fr 0.25fr 0.5fr;
-    grid-template-areas: "lorem1" "lorem2" "marco-index";
+    grid-template-areas: "lorem1" "lorem2" "foto-index";
   }
   #lorem1 {
     grid-area: lorem1;
@@ -371,104 +329,54 @@ width:100%;
   #lorem2 {
     grid-area: lorem2;
   }
-  #header-index {
-    grid-area: header;
-    display: flex;
-    background-color: brown;
-    font-size: 25px;
-    width: 0.1fr;
-  }
-  #navegador-index {
-    grid-area: nav;
-    display: flex;
-    flex-direction: column;
-    width: 0.1fr;
-  }
-  /* #ul-index{
-       display:flex;
-       justify-content: space-evenly;
-       flex-direction: column;
-       width: 70%;
-       align-items:center;
+  /*#marco-index{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      grid-area:marco-index;
    }*/
-  #main-index {
-    grid-area: main;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  #section-index {
-    grid-area: section;
-    display: flex;
-    justify-content: center;
-  }
-  #section-titulo {
-    grid-area: section-titulo;
-  }
-  #footer-index {
-    grid-area: footer;
-    background-color: rgb(118, 79, 42);
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    align-self: center;
-  }
-  #marco-index {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    grid-area: marco-index;
-  }
   #foto-index {
-    display: flex;
-    width: 500px;
-    height: 500px;
-    align-content: center;
-    justify-self: flex-start;
+    grid-area: foto-index;
+    width: 450px;
+    height: 450px;
+    align-items: center;
     margin-top: 150px;
     border-radius: 10px;
     border: solid antiquewhite;
     margin-bottom: 200px;
-    justify-content: left;
-    grid-area: foto-index;
     box-shadow: 10px 10px 10px black;
   }
   .tituloconteiner {
     margin-bottom: 50px;
   }
-  .pie1 {
-    align-items: center;
-    font-family: "Roboto", sans-serif;
-    font-weight: bolder;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
-    margin: 20px 10px;
-    width: 400px;
-    height: 50px;
-    border-radius: 10px;
-    border: solid grey 5px;
-    background-color: transparent;
-    cursor: pointer;
-    margin-left: 250px;
-    box-shadow: 10px 10px 10px black;
-    color: antiquewhite;
-  }
-  .pie1:hover {
-    box-shadow: 0 0 40px 10px inset antiquewhite;
-    color: black;
-  }
-  /* .pie1{
-      color:blanchedalmond;
-      font-family:'Bree Serif', serif ;
-      font-size: 15px;
+  /*.pie1{
+      align-items: center;
+      font-family:$fuente-roboto;
+      font-weight: bolder;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color:white;
+      font-size: 20px;
+      text-decoration: none;
+      margin:20px 10px;
+      width:300px;
+      height: 50px;
+      border-radius: 10px;
+      border:solid grey 5px;
+      background-color: transparent;
+      cursor:pointer;
+      margin-left:250px;
+      box-shadow: 10px 10px 10px black;
+      color:antiquewhite;
+
+
+      &:hover{
+         box-shadow:0 0 40px 10px inset antiquewhite;
+         color:black;
+      }
+
   }*/
 }
 @media (min-width: 1024px) {
@@ -636,8 +544,6 @@ width:100%;
     font-weight: bolder;
   }
   #bodycontactos {
-    display: flex;
-    flex-direction: column;
     background-image: url("../imagenes/el-mercurio-volador-juan-de-bolonia-627x376.jpg");
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -895,7 +801,6 @@ width:100%;
 }
 @media (max-width: 1023px) {
   #body-experiencia {
-    width: 80%;
     background-image: url("../imagenes/depositphotos_418026222-stock-photo-ancient-statue-antique-god-commerce.jpg");
     background-attachment: fixed;
     background-blend-mode: soft-light;
