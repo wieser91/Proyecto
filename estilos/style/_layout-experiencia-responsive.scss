@@ -1,13 +1,14 @@
 @media(max-width:1023px){
   
   #body-experiencia{
-       width:1fr;
+       width:100% auto;
        background-image: url("../imagenes/depositphotos_418026222-stock-photo-ancient-statue-antique-god-commerce.jpg");
        background-attachment: fixed;
        background-blend-mode: soft-light;
        background-color: rgba(50,50,50,0.98);
        background-size: 100%;
        display: grid;
+      display: flex;
        flex-direction: column;
        grid-template-columns: 1fr;
        grid-template-rows: 0.15fr 0.15fr 0.25fr 0.3fr auto;
@@ -23,7 +24,8 @@
    
    #header-experiencia{
     grid-area: header;
-    width: 100%;
+    width: 100vw;
+   
     
    }
                       
@@ -59,6 +61,7 @@
                            align-items:center;
                            padding-bottom:20px; ;
                            padding-top:20px;
+                       
    
                            }
                            .relleno-experiencia{
@@ -66,14 +69,14 @@
                               justify-items:center;
                                display:flex;
                                flex-direction: column;
-                               width:75%;
-                               border-radius: 15px;
+                               width:90%;
+                               border-radius: 9px;
                                font-size:15px;
                                font-weight: lighter;
                                color:white;
                                flex-direction: column;
                                background: rgba(5,7,12,0.40);
-                               padding:10px;
+                               padding:15px;
                            
    
                            }
@@ -83,13 +86,15 @@
                             display:flex;
                             background-color: rgba(118,79,42);
                             justify-content: center;
-                            width:100%;
+                            width:100vw;
                             
                             }
                             
-                            #consejo-economicas{
+                            /*#consejo-economicas{
                                 margin-top:50px;
-                            }
+                                margin:10px auto;
+                                width: 100%;
+                            }*/
                            
                            
                         
@@ -102,14 +107,16 @@
 
 
                            #section-experiencia2{
+                            width:90%;
                             justify-content: center;
-                            margin-left:50px;
+                            margin-left:30px;
                              grid-area:section2;
                              flex-direction:column;
                              align-items:center;
                              gap:5px;
                              display:grid; 
-                             grid-template-columns: 0.8fr;
+                             display: flex;
+                             grid-template-columns: 0.7fr;
                              grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr  auto;
                              grid-template-areas:"foto-harold"
                                                 "historia-harold"
@@ -121,8 +128,8 @@
                                            }
                    
                                     #foto-harold{
-                                        width:300px;
-                                        height: 300px;
+                                        width:190px;
+                                        height: 200px;
                                         display:flex;
                                         flex-direction: column;
                                         border:solid grey;
@@ -138,8 +145,8 @@
                                         display:flex;
                                         justify-content:start;
                                         padding: 20px;
-                                        width: 300px;
-                                        height: 410px;
+                                        width: 190px;
+                                        height: 700px;
                                         font-size:15px ;
                                         font-weight: lighter;
                                         color:antiquewhite;
@@ -154,8 +161,8 @@
                                                     }
             
                                     #foto-sarah{ 
-                                         width:300px;
-                                         height: 300px;
+                                         width:190px;
+                                         height: 200px;
                                          display:flex;
                                          flex-direction: column;
                                         border:solid antiquewhite;
@@ -170,8 +177,8 @@
                                      .historia-sarah{
                                         display:flex;
                                         justify-content:start;
-                                        width: 300px;
-                                        height: 300px;
+                                        width: 190px;
+                                        height: 500px;
                                         padding: 20px;
                                         font-size:15px ;
                                         font-weight: lighter;
@@ -188,23 +195,23 @@
                                                     }
             
                                                     #foto-isaac{
-                                                        width:300px;
-                                                        height: 300px;
+                                                        width:190px;
+                                                        height: 200px;
                                                         display:flex;
                                                         flex-direction: column;
                                                        border:solid antiquewhite;
                                                        grid-area:foto-isaac;
                                                        border-radius: 5px;
                                                        box-shadow: 10px 10px 5px black;
-                                                       margin-bottom: 20px;
+                                                       margin-bottom: 5px;
                            
                                                     }
             
                                                     .historia-isaac{
                                                         display:flex;
                                                         justify-content:start;
-                                                        width: 300px;
-                                                        height: 300px;
+                                                        width: 190px;
+                                                        height: 500px;
                                                         font-size:15px ;
                                                         font-weight: lighter;
                                                         padding: 20px;
