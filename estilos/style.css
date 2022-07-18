@@ -802,12 +802,12 @@ header {
     display: flex;
     flex-direction: column;
     background-color: rgb(118, 79, 42);
-    justify-content: start;
+    justify-content: flex-start;
     width: 100%;
   }
-  #consejo-economicas {
-    margin-top: 50px;
+  .consejo-economicas {
     width: 100%;
+    height: 100%;
   }
   #section-experiencia2 {
     justify-items: center;
@@ -834,8 +834,6 @@ header {
   .historia-fabi {
     display: flex;
     justify-content: start;
-    width: 250px;
-    height: 500px;
     font-size: 15px;
     font-weight: lighter;
     color: antiquewhite;
@@ -861,8 +859,6 @@ header {
   .historia-sarah {
     display: flex;
     justify-content: start;
-    width: 250px;
-    height: 300px;
     padding: 5px;
     font-size: 15px;
     font-weight: lighter;
@@ -888,8 +884,6 @@ header {
   .historia-isaac {
     display: flex;
     justify-content: start;
-    width: 250px;
-    height: 350px;
     font-size: 15px;
     font-weight: lighter;
     padding: 5px;
