@@ -11,6 +11,7 @@
 
 header {
   background-color: rgb(118, 79, 42);
+  width: 100%;
   list-style: none;
   padding: 20px;
 }
@@ -766,7 +767,7 @@ header {
     background-size: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.25fr 0.25fr 0.3fr auto;
+    grid-template-rows: 0.15fr 0.15fr 0.2fr auto;
     grid-template-areas: "header" "section" "section2" "footer-experiencia";
   }
   #header-experiencia {
@@ -1033,7 +1034,7 @@ header {
     background-color: rgba(50, 50, 50, 0.98);
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.15fr 0.15fr 0.5fr auto;
+    grid-template-rows: 0.15fr 0.15fr 0.2fr auto;
     grid-template-areas: "header" "nav" "section" "footer";
   }
   /*#header-historia{
@@ -1335,7 +1336,7 @@ header {
     background-blend-mode: soft-light;
     grid-area: parrafo1;
     font-size: 15px;
-    font-weight: lighter;
+    font-weight: bolder;
     margin-bottom: 50px;
     background: rgba(5, 7, 12, 0.4);
     border-radius: 5px;
@@ -1346,7 +1347,7 @@ header {
   #parrafo2 {
     grid-area: parrafo2;
     font-size: 15px;
-    font-weight: lighter;
+    font-weight: bolder;
     margin-bottom: 50px;
     background: rgba(5, 7, 12, 0.4);
     border-radius: 5px;
@@ -1357,7 +1358,7 @@ header {
   #parrafo3 {
     grid-area: parrafo3;
     font-size: 15px;
-    font-weight: lighter;
+    font-weight: bolder;
     margin-bottom: 50px;
     background: rgba(5, 7, 12, 0.4);
     border-radius: 5px;
@@ -1368,7 +1369,7 @@ header {
   #parrafo4 {
     grid-area: parrafo4;
     font-size: 15px;
-    font-weight: lighter;
+    font-weight: bolder;
     margin-bottom: 200px;
     background: rgba(5, 7, 12, 0.4);
     border-radius: 5px;
