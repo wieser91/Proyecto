@@ -1,7 +1,7 @@
 @media(max-width:1023px){
   
   #body-experiencia{
-       width: 100%;
+     width: 100%;
        background-image: url("../imagenes/depositphotos_418026222-stock-photo-ancient-statue-antique-god-commerce.jpg");
        background-attachment: fixed;
        background-blend-mode: soft-light;
@@ -101,15 +101,11 @@
 
 
                          #section-experiencia2{
-                          
-                            justify-content: center;
-                            margin:auto;
+                            margin-left:15px;
                              grid-area:section2;
-                             flex-direction:column;
                              align-items:flex-start;
                              gap:5px;
                              display:grid; 
-                             display: flex;
                              grid-template-columns:1fr;
                              grid-template-rows: 0.6fr 0.6fr 0.6fr 0.6fr 0.6fr  auto;
                              grid-template-areas:"foto-harold"
@@ -138,7 +134,6 @@
                                     .historia-fabi{
                                         display:flex;
                                         justify-content:start;
-                                        padding: 20px;
                                         width: 250px;
                                         height: 500px;
                                         font-size:15px ;
@@ -150,7 +145,7 @@
                                         margin-bottom:40px;
                                         background: rgba(5,7,12,0.40);
                                         border-radius:10px;
-
+                                        padding:5px;
                    
                                                     }
             
@@ -173,7 +168,7 @@
                                         justify-content:start;
                                         width: 250px;
                                         height: 300px;
-                                        padding: 20px;
+                                        padding: 5px;
                                         font-size:15px ;
                                         font-weight: lighter;
                                         color:antiquewhite;
@@ -208,7 +203,7 @@
                                                         height: 350px;
                                                         font-size:15px ;
                                                         font-weight: lighter;
-                                                        padding: 20px;
+                                                        padding: 5px;
                                                         color:antiquewhite;
                                                         font-family:'Roboto', sans-serif ;
                                                         flex-direction: column;
