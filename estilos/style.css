@@ -756,6 +756,8 @@ header {
 }
 @media (max-width: 1023px) {
   #body-experiencia {
+    margin: 0;
+    padding: 0;
     width: 100%;
     background-image: url("../imagenes/depositphotos_418026222-stock-photo-ancient-statue-antique-god-commerce.jpg");
     background-attachment: fixed;
@@ -769,17 +771,6 @@ header {
   }
   #header-experiencia {
     grid-area: header;
-    width: 100%;
-  }
-  #navegador-experiencia {
-    grid-area: nav;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  #ul-experiencia {
-    display: flex;
-    flex-direction: column;
   }
   #section-experiencia {
     grid-area: section;
@@ -792,7 +783,7 @@ header {
     padding-top: 20px;
   }
   .relleno-experiencia {
-    justify-content: end;
+    justify-content: flex-start;
     justify-items: center;
     display: flex;
     flex-direction: column;
@@ -818,15 +809,15 @@ header {
     width: 100%;
   }
   #section-experiencia2 {
-    margin-left: 15px;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
     grid-area: section2;
-    align-items: flex-start;
     gap: 5px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.6fr 0.6fr 0.6fr 0.6fr 0.6fr auto;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr auto;
     grid-template-areas: "foto-harold" "historia-harold" "foto-sarah" "historia-sarah" "foto-isaac" "historia-isaac";
-    margin-bottom: 50px;
   }
   #foto-harold {
     width: 250px;
@@ -908,6 +899,7 @@ header {
     padding-top: 10px;
     background: rgba(5, 7, 12, 0.4);
     border-radius: 10px;
+    margin-bottom: 50px;
   }
 }
 @media (min-width: 1024px) {
@@ -1299,8 +1291,7 @@ header {
     height: 350px;
   }
   #section-servicios {
-    display: flex;
-    justify-content: center;
+    justify-items: center;
     gap: 20px;
     color: white;
     font-family: "Roboto", sans-serif;
@@ -1308,7 +1299,7 @@ header {
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template-columns: 0.15fr 0.15fr 0.15fr 0.15fr;
+    grid: template columns 1fr;
     grid-template-rows: 0.15fr 0.15fr 0.15fr 0.15fr;
     grid-template-areas: "foto1" "parrafo1" "foto2" "parrafo2" "foto3" "parrafo3" "foto4" "parrafo4";
   }
@@ -1344,7 +1335,7 @@ header {
     background-blend-mode: soft-light;
     grid-area: parrafo1;
     font-size: 15px;
-    font-weight: bolder;
+    font-weight: lighter;
     margin-bottom: 50px;
     background: rgba(5, 7, 12, 0.4);
     border-radius: 5px;
@@ -1355,7 +1346,7 @@ header {
   #parrafo2 {
     grid-area: parrafo2;
     font-size: 15px;
-    font-weight: bolder;
+    font-weight: lighter;
     margin-bottom: 50px;
     background: rgba(5, 7, 12, 0.4);
     border-radius: 5px;
@@ -1366,7 +1357,7 @@ header {
   #parrafo3 {
     grid-area: parrafo3;
     font-size: 15px;
-    font-weight: bolder;
+    font-weight: lighter;
     margin-bottom: 50px;
     background: rgba(5, 7, 12, 0.4);
     border-radius: 5px;
@@ -1377,7 +1368,7 @@ header {
   #parrafo4 {
     grid-area: parrafo4;
     font-size: 15px;
-    font-weight: bolder;
+    font-weight: lighter;
     margin-bottom: 200px;
     background: rgba(5, 7, 12, 0.4);
     border-radius: 5px;
