@@ -743,11 +743,8 @@ header {
   }
   #section-experiencia {
     grid-area: section;
-    display: flex;
-    flex-direction: column;
+    justify-self: auto;
     font-family: "Roboto", sans-serif;
-    justify-content: flex-start;
-    align-items: center;
     padding-bottom: 20px;
     padding-top: 20px;
   }
@@ -756,11 +753,11 @@ header {
     justify-items: center;
     display: flex;
     flex-direction: column;
-    width: 80%;
-    border-radius: 9px;
+    width: 100% auto;
+    border-radius: 9px solid green;
     font-size: 15px;
     font-weight: lighter;
-    color: white;
+    color: antiquewhite;
     flex-direction: column;
     background: rgba(5, 7, 12, 0.4);
     padding: 15px;
