@@ -1240,6 +1240,7 @@ header {
     border: solid rgb(118, 79, 42);
   }
   #parrafo1 {
+    color: white;
     background-blend-mode: soft-light;
     grid-area: parrafo1;
     font-size: 15px;
@@ -1249,9 +1250,11 @@ header {
     border-radius: 5px;
   }
   #parrafo1:hover {
-    box-shadow: 0 0 40px 10px inset antiquewhite;
+    box-shadow: 0 0 40px 10px inset blue;
+    font-weight: bolder;
   }
   #parrafo2 {
+    color: white;
     grid-area: parrafo2;
     font-size: 15px;
     font-weight: lighter;
@@ -1260,9 +1263,11 @@ header {
     border-radius: 5px;
   }
   #parrafo2:hover {
-    box-shadow: 0 0 40px 10px inset antiquewhite;
+    box-shadow: 0 0 40px 10px inset blue;
+    font-weight: bolder;
   }
   #parrafo3 {
+    color: white;
     grid-area: parrafo3;
     font-size: 15px;
     font-weight: lighter;
@@ -1271,9 +1276,11 @@ header {
     border-radius: 5px;
   }
   #parrafo3:hover {
-    box-shadow: 0 0 40px 10px inset antiquewhite;
+    box-shadow: 0 0 40px 10px inset blue;
+    font-weight: bolder;
   }
   #parrafo4 {
+    color: white;
     grid-area: parrafo4;
     font-size: 15px;
     font-weight: lighter;
@@ -1282,7 +1289,8 @@ header {
     border-radius: 5px;
   }
   #parrafo4:hover {
-    box-shadow: 0 0 40px 10px inset antiquewhite;
+    box-shadow: 0 0 40px 10px inset blue;
+    font-weight: bolder;
   }
 }
 /*---------------------------mobile smartphone------------------------------------*/
