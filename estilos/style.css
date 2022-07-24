@@ -733,7 +733,7 @@ header {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.15fr 0.15fr 0.2fr auto;
-    grid-template-areas: "header" "section" "section2" "footer-experiencia";
+    grid-template-areas: "header" "section" "grilla-socios" "footer-experiencia";
   }
   #header-experiencia {
     grid-area: header;
@@ -774,11 +774,14 @@ header {
     width: 100%;
     height: 100%;
   }
-  #section-experiencia2 {
+  .grilla-socios {
+    grid-area: grilla-socios;
+    width: 100%;
+  }
+  .grilla-socios #section-experiencia2 {
     justify-items: center;
     width: 100%;
     height: 100%;
-    grid-area: section2;
     gap: 5px;
     display: grid;
     grid-template-columns: 1fr;
