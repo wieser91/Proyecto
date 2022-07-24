@@ -79,12 +79,7 @@ grid-template-areas:  "header-contacto"
        align-items: center;            
      
      }
-
-
-       
-                     
-
-                     #nav-contacto{
+                      #nav-contacto{
                          display:flex;
                          flex-direction: column;
                          grid-area:nav-contacto;

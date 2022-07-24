@@ -1,21 +1,7 @@
 @media(max-width:1023px){
-
-
-   
-           .tituloconteiner{
-               
-               font-size: 30px;
-              position:relative;
-               align-items:flex-end;
-               box-shadow: 10px 10px 10px black;
-               grid-area:section-titulo;
-
-   
-           }
-         
-        
      
-    #principal1{
+    
+      #principal1{
        width: 100%;
        background-image: url("../imagenes/istockphoto-1131318494-612x612.jpg");
        background-size:100% 100% ;
@@ -27,9 +13,8 @@
        grid-template-columns: 1fr;
        grid-template-rows:0.2fr 0.2fr 0.2fr auto;
        grid-template-areas:     "header"
-                                
-                                "main"
-                                "section" 
+                                 "main"
+                                "section-titulo" 
                                  "footer";
  
                                                 }
@@ -53,31 +38,30 @@
                                                 }
 
 
+                                                .tituloconteiner{
+               
+                                                    font-size: 30px;
+                                                   position:relative;
+                                                    align-items:flex-end;
+                                                    box-shadow: 10px 10px 10px black;
+                                                    grid-area:section-titulo;
+                                     
+                                        
+                                                }                                  
 
 
 
 
-
-
-                                #section-index{
-                                    grid-area:section;
-                                   position: relative;
-                                }
 
 
 
                                 #footer-index{
                                     grid-area:footer;
                                     background-color:rgb(118,79,42);
-                                   
-                        
-                                 }
+                                   }
 
 
-
-
-
-                                .mayuscula{
+                          .mayuscula{
                                  display: flex;
                                  flex-direction:column;
                                  font-family:$fuente-roboto;
@@ -105,7 +89,6 @@
 
 
                             .relleno-conteiners{
-                              
                                 border-radius: 10px;
                                 align-items:center;
                                 flex-wrap: wrap;
@@ -159,9 +142,7 @@
         border-radius: 10px;
         border:solid antiquewhite;
         margin-bottom: 200px;
-      
-    
-       
+        
         box-shadow: 10px 10px 10px black;
 
        }
