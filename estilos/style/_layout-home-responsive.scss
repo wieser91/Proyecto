@@ -3,36 +3,19 @@
 
    
            .tituloconteiner{
-               display:flex;      
+               
                font-size: 30px;
-               flex-direction: column;
+              position:relative;
                align-items:flex-end;
                box-shadow: 10px 10px 10px black;
                grid-area:section-titulo;
+
    
            }
          
-           .mayuscula{
-            display: flex;
-            flex-direction:column;
-            font-family:$fuente-roboto;
-            font-weight: bolder;
-            padding:50px;
-            justify-content: center;
-            color:antiquewhite;
-            width: 500px;
-            height:20vh;
-            margin-top: 50px;
-            align-items:center;
-            align-content: center;
-            box-shadow: 10px 10px 10px black;
-            }
-
-            
-  
-    
+        
      
-   #principal1{
+    #principal1{
        width: 100%;
        background-image: url("../imagenes/istockphoto-1131318494-612x612.jpg");
        background-size:100% 100% ;
@@ -58,14 +41,7 @@
                                                    }
 
 
-                                                   /*#navegador-index{
-                                                    grid-area: nav;
-                                                    display:flex;
-                                                    flex-direction:column;
-                                                  
                                                  
-                                                }*/
-
 
 
                                                 #main-index{
@@ -82,22 +58,10 @@
 
 
 
-                                .tituloconteiner{
-                                    grid-area:section-titulo;
-                                    display:flex;      
-                                    font-size: 30px;
-                                    flex-direction: column;
-                                    align-items:flex-end;
-                                    box-shadow: 10px 10px 10px black;
-                                    
-                                }
-                              
 
                                 #section-index{
                                     grid-area:section;
-                                    display:flex;
-                                    align-items:  center;
-                                    
+                                   position: relative;
                                 }
 
 
@@ -127,6 +91,7 @@
                                  align-items:center;
                                  align-content: center;
                                  box-shadow: 10px 10px 10px black;
+                                 position: relative;
                                  }
                                     
                         
@@ -140,10 +105,9 @@
 
 
                             .relleno-conteiners{
-                                display: flex;
+                              
                                 border-radius: 10px;
                                 align-items:center;
-                                flex-direction:column;
                                 flex-wrap: wrap;
                                 color:antiquewhite;
                                 font-family:$fuente-roboto;
@@ -168,33 +132,20 @@
                                 }
                 #lorem1{
                    grid-area:lorem1;
+                   position: relative;
 
                 }
                             #lorem2{
                                 grid-area:lorem2;
+                                position: relative;
                             }
 
    
-   
-       
-   
-      
-   
-
-       
-   
-
-      
-      
-
-       
-   
-   #marco-index{
-       display:flex;
-       flex-direction: column;
+    #marco-index{
+      position: relative;
        align-items: center;
        grid-area:marco-index;
-       
+       width: auto;
     }
     
   
@@ -215,9 +166,7 @@
 
        }
    
-.tituloconteiner{
-    margin-bottom: 50px;
-}
+
 
   
     
