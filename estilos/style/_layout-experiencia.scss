@@ -13,7 +13,7 @@
     grid-template-areas: "header"
                           "nav"
                           "section"
-                         "section2"
+                         "grilla-socios"
                          "footer";
     
 }
@@ -70,7 +70,8 @@
 
                         }
                 
-                       
+                       .grilla-socios{
+                        grid-area:grilla-socios;
                         #section-experiencia2{
                            justify-content: center;
                            margin-left:100px;
@@ -87,6 +88,7 @@
                                       "historia-sarah historia-harold historia-isaac";
                                             }
                     
+                    }
 
                         #foto-harold{
                             width:300px;

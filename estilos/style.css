@@ -582,7 +582,7 @@ header {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.15fr 0.15fr 0.1fr 0.15fr auto;
-    grid-template-areas: "header" "nav" "section" "section2" "footer";
+    grid-template-areas: "header" "nav" "section" "grilla-socios" "footer";
   }
   #ul-experiencia {
     display: flex;
@@ -615,7 +615,10 @@ header {
     border-radius: 20px;
     padding: 0px 20px 0px 20px;
   }
-  #section-experiencia2 {
+  .grilla-socios {
+    grid-area: grilla-socios;
+  }
+  .grilla-socios #section-experiencia2 {
     justify-content: center;
     margin-left: 100px;
     grid-area: section2;
@@ -791,8 +794,6 @@ header {
   #foto-harold {
     width: 250px;
     height: 250px;
-    display: flex;
-    flex-direction: column;
     border: solid grey;
     grid-area: foto-harold;
     border-radius: 5px;
@@ -800,13 +801,11 @@ header {
     margin-bottom: 20px;
   }
   .historia-fabi {
-    display: flex;
     justify-content: start;
     font-size: 15px;
     font-weight: lighter;
     color: antiquewhite;
     font-family: "Roboto", sans-serif;
-    flex-direction: column;
     grid-area: historia-harold;
     margin-bottom: 40px;
     background: rgba(5, 7, 12, 0.4);
@@ -816,8 +815,6 @@ header {
   #foto-sarah {
     width: 250px;
     height: 250px;
-    display: flex;
-    flex-direction: column;
     border: solid antiquewhite;
     grid-area: foto-sarah;
     border-radius: 5px;
@@ -825,14 +822,11 @@ header {
     margin-bottom: 20px;
   }
   .historia-sarah {
-    display: flex;
-    justify-content: start;
     padding: 5px;
     font-size: 15px;
     font-weight: lighter;
     color: antiquewhite;
     font-family: "Roboto", sans-serif;
-    flex-direction: column;
     grid-area: historia-sarah;
     background: rgba(5, 7, 12, 0.4);
     margin-bottom: 30px;
@@ -841,8 +835,6 @@ header {
   #foto-isaac {
     width: 250px;
     height: 250px;
-    display: flex;
-    flex-direction: column;
     border: solid antiquewhite;
     grid-area: foto-isaac;
     border-radius: 5px;
@@ -850,14 +842,11 @@ header {
     margin-bottom: 5px;
   }
   .historia-isaac {
-    display: flex;
-    justify-content: start;
     font-size: 15px;
     font-weight: lighter;
     padding: 5px;
     color: antiquewhite;
     font-family: "Roboto", sans-serif;
-    flex-direction: column;
     grid-area: historia-isaac;
     padding-top: 10px;
     background: rgba(5, 7, 12, 0.4);

@@ -110,8 +110,7 @@
                                     #foto-harold{
                                         width:250px;
                                         height: 250px;
-                                        display:flex;
-                                        flex-direction: column;
+                            
                                         border:solid grey;
                                         grid-area:foto-harold;
                                         border-radius:5px;
@@ -122,14 +121,14 @@
                                     }
                                   
                                     .historia-fabi{
-                                        display:flex;
+                                       
                                         justify-content:start;
                                         
                                         font-size:15px ;
                                         font-weight: lighter;
                                         color:antiquewhite;
                                         font-family:'Roboto', sans-serif ;
-                                        flex-direction: column;
+                                       
                                         grid-area:historia-harold;
                                         margin-bottom:40px;
                                         background: rgba(5,7,12,0.40);
@@ -141,8 +140,7 @@
                                     #foto-sarah{ 
                                          width:250px;
                                          height: 250px;
-                                         display:flex;
-                                         flex-direction: column;
+                                         
                                         border:solid antiquewhite;
                                         grid-area:foto-sarah;
                                         border-radius:5px;
@@ -153,14 +151,13 @@
                                      }
             
                                      .historia-sarah{
-                                        display:flex;
-                                        justify-content:start;
+                                        
                                         padding: 5px;
                                         font-size:15px ;
                                         font-weight: lighter;
                                         color:antiquewhite;
                                         font-family:'Roboto', sans-serif ;
-                                        flex-direction: column;
+                                     
                                         grid-area:historia-sarah;
                                         background: rgba(5,7,12,0.40);
                                         margin-bottom: 30px;
@@ -173,8 +170,7 @@
                                                     #foto-isaac{
                                                         width:250px;
                                                         height: 250px;
-                                                        display:flex;
-                                                        flex-direction: column;
+                                                       
                                                        border:solid antiquewhite;
                                                        grid-area:foto-isaac;
                                                        border-radius: 5px;
@@ -184,14 +180,13 @@
                                                     }
             
                                                     .historia-isaac{
-                                                        display:flex;
-                                                        justify-content:start;
+                                                      
                                                         font-size:15px ;
                                                         font-weight: lighter;
                                                         padding: 5px;
                                                         color:antiquewhite;
                                                         font-family:'Roboto', sans-serif ;
-                                                        flex-direction: column;
+                                                        
                                                         grid-area:historia-isaac;
                                                         padding-top:10px;
                                                         background: rgba(5,7,12,0.40);
